@@ -1,7 +1,7 @@
 Project website INF1B.
 
 Johan Rikse
-Sietze koonstra
+Sietze Koonstra
 Tim Gels
 Bram Gerrits
 Koen Somsen
