@@ -125,8 +125,8 @@ body{
 	width: 100%; 
 	height: 200px;
 	/* background-color: #E56399; */
-	/* background-color: #62a7db; */
-	background-color: #cce8cc;
+	background-color: #62a7db; 
+	/* background-color: #cce8cc; */ 
 	position: absolute;
 	top: 116%;
 
@@ -150,7 +150,7 @@ body{
 .Links li{	
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	color: #6b7869; 
+	color: white; 
 	list-style-type: none;
 	font-size: 13px;
 	
@@ -159,7 +159,7 @@ body{
 .Links p{	
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	color: #6b7869; 
+	color: white; 
 	list-style-type: none;
 	margin-bottom: 10px;
 }
@@ -171,7 +171,7 @@ body{
 	float: right;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	color: #6b7869; 
+	color: white; 
 	font-size: 13px;
 }
 
@@ -180,15 +180,15 @@ body{
 	height: 30px;
 	text-align: center;
 	/* background-color: #db5d8f; */
-	/* background-color: #5d9ccc; */
-	background-color: #bad1b8;
+	background-color: #5d9ccc; 
+	/* background-color: #bad1b8; */ 
 }
 	
 #backtotop p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
-	color: #6b7869; 
+	color: white; 
 	padding: 6px 6px;
 }
 
