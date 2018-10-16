@@ -4,9 +4,6 @@
 }
 
 body{
-	background-image:url(images/achtergrondhh.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
 
 }
 
@@ -21,6 +18,9 @@ body{
 	height: 70px;
 	float: left;
 	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
 	
 }
 
@@ -39,50 +39,60 @@ body{
 	background-color: #e3e1df ;
 }
 
-#NL{
-	height: 70px;
+.languageBtn{
 	width: 35px;
 	float: left;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	text-decoration:none;
-	color: black;
-	text-align: center;
-	margin-left: 10px;
-	margin-top: 25px;
-}
-
-#EN{
-	height: 70px;
-	width: 35px;
-	float: left;
-	margin-top: 25px;
-}
-
-#EN a{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	text-decoration:none;
 	color: #e3e1df;
 	text-align: center;
+	margin-left: 10px;
+	line-height: 70px;
 }
 
-#header li{
-	padding: 10px 20px ;
+#languageSelect {
+	float: left;
+	height: 100%;
+}
+
+.languageBtn.active{
+	color: #000;
+}
+
+#header #desktopMenu {
 	float: right;
+	height: 100%;
+}
+
+#header #desktopMenu li{
+	padding: 0 20px ;
+	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	list-style-type: none;
-	margin-top: 10px;
 	margin-right: 10px;
+	line-height: 70px;
+}
+
+#header #mobileMenu li{
+	padding: 0 20px ;
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	list-style-type: none;
+	margin-right: 10px;
+	line-height: 70px;
 }
 
 #content{
 	width: 100%; 
 	height: 700px;
-
-	float: left;
+	background-image:url(images/achtergrondhh.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #textbox{
@@ -126,9 +136,7 @@ body{
 	height: 200px;
 	/* background-color: #E56399; */
 	background-color: #62a7db; 
-	/* background-color: #cce8cc; */ 
-	position: absolute;
-	top: 116%;
+	/* background-color: #cce8cc; */
 
 
 }
@@ -194,4 +202,19 @@ body{
 
 #backtotop a{
 	text-decoration:none;
+}
+
+#contentbox{
+	width: 100%;
+	height: 300px;
+	background-color: white; 
+}
+
+@media screen and (max-width:500px) {
+	#header #desktopMenu {
+		display: none;
+	}
+	#header #mobileMenu {
+		display: block;
+	}
 }
