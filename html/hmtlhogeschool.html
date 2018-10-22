@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
@@ -13,9 +13,9 @@
 	
 	<body>
 		<div id=header> 
-			<img src='images/logohh.png'>
+			<img src='images/logohh.png' alt='Hogeschool Hoogeveen'>
 			
-			<div id=streepje></div>
+			<div class=streepje></div>
 			
 			<div id="languageSelect">
 				<a class="languageBtn active" href="#">
@@ -26,6 +26,8 @@
 				</a>
 			</div>
 			
+			<div class=streepje></div>
+			
 			<ul id="desktopMenu">
 				<li> Agenda</li>
 				<li> Inschrijven</li>
@@ -34,7 +36,7 @@
 				<li> Opleidingen</li>				
 			</ul>
 			
-			<div id="menuBtn">menu</div>
+			<div id="menuBtn">☰</div>
 			<ul id="mobileMenu">
 				<li> Agenda</li>
 				<li> Inschrijven</li>
@@ -45,7 +47,8 @@
 		</div>
 		
 		<div id=content>
-			<div class='bollen'> </div>
+			<div class='bollen'> 
+			</div>
 			
 			<div id='achtergrondcontent'>
 				<div id='backgroundimage'> </div>
@@ -63,7 +66,8 @@
 
 			
 			</div>
-			<div class='bollen'> </div>
+			<div class='bollen'> 
+			</div>
 			
 		
 		</div>
@@ -88,9 +92,9 @@
 					<p>Contact</p>
 					<ul>
 						<li>Contact </li>
+						<li>Informatie </li>
 					</ul>
 				</div>
-				
 				<div id=gegevens>
 				    <p> Adres: Hogeschool Hoogeveen, Hoogestraat 99</p>
 					<p> 06 25-73 21-34</p>
@@ -98,12 +102,13 @@
 				</div>	
 				
 			</div>
+
+		</div>
 			<div id=backtotop>
 				<a href='#'> <p> Back to top</p> </a>
 			</div>
-		</div>
 
-		<script type="text/javascript">
+		<script>
 			$('#menuBtn').click(function(){
 				$('#mobileMenu').toggleClass('active');
 			});

@@ -19,6 +19,7 @@
 	top: 0;
 	left: 0;
 	z-index: 999;
+	background-color: #fcfcfc;
 	
 }
 
@@ -30,11 +31,11 @@
 	margin-top: 6px;
 }
 
-#streepje{
+.streepje{
 	width: 1px; 
 	height: 70px;
 	float: left;	
-	background-color: #e3e1df ;
+	background-color: #ededed ;
 }
 
 .languageBtn{
@@ -43,9 +44,10 @@
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	text-decoration:none;
-	color: #e3e1df;
+	color: #bababa;
 	text-align: center;
 	margin-left: 10px;
+	margin-right: 10px;
 	line-height: 70px;
 }
 
@@ -55,7 +57,7 @@
 }
 
 .languageBtn.active{
-	color: #000;
+	color: black;
 }
 
 #header #desktopMenu {
@@ -66,10 +68,12 @@
 #menuBtn {
 	float: right;
 	line-height: 70px;
-	margin-right: 20px;
+	margin-right: 27px;
 	font-weight: bold;
 	cursor: pointer;
 	display: none;
+	font-size: 24px;
+	color: #bababa;
 }
 
 #menuBtn:focus{
@@ -180,7 +184,7 @@
 }
 
 .Links {
-	width: 180px; 
+	width: 140px; 
 	height: 170px;
 	float: left;
 	margin-top: 30px;
@@ -229,7 +233,7 @@
 	font-weight: 700;
 	font-size: 13px;
 	color: white; 
-	padding: 6px 6px;
+	padding: 7px;
 }
 
 #backtotop a{
@@ -242,6 +246,7 @@
 	width: 50%;
 	float: left;
 }
+
 
 #backgroundimage{
 	background-image:url(images/bg_hh_2.png);
@@ -280,5 +285,36 @@
 
 	#menuBtn {
 		display: block;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#gegevens {
+		display: none;
+	}
+
+	#infor {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#textbox h1{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#textbox p{
+		display: none;
+	}
+	
+	#textbox h1{
+		font-size: 28px;
+		margin-left: 10px;
+	}
+	
+	.moreknop{
+		margin-left: 10px;
 	}
 }
