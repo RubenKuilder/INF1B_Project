@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 	<head>
 		<meta charset='UTF-8'>
-		<link rel='stylesheet' href='hhstyle.css' type='text/css'/> 
+		<meta name="viewport" content="width=device-width">
+		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 		
 		<title> Hogeschool Hoogeveen</title>
@@ -10,23 +13,31 @@
 	
 	<body>
 		<div id=header> 
-			<img src='images/logohh.png'>
+			<img src='images/logohh.png' alt='Hogeschool Hoogeveen'>
 			
-			<div id=streepje></div>
+			<div class=streepje></div>
 			
-				<div id=NL>
-					<p> NL </p> 
-				</div>
-				
-				<div  id=EN> 
-					<a href='#'> 
-					<p> EN</p>
-					</a>
-				</div>
-				
-			<div id=blok></div>
+			<div id="languageSelect">
+				<a class="languageBtn active" href="#">
+					NL
+				</a>
+				<a class="languageBtn" href="#">
+					EN
+				</a>
+			</div>
 			
-			<ul>
+			<div class=streepje></div>
+			
+			<ul id="desktopMenu">
+				<li> Agenda</li>
+				<li> Inschrijven</li>
+				<li> Roosters</li>
+				<li> Media</li>	
+				<li> Opleidingen</li>				
+			</ul>
+			
+			<div id="menuBtn">☰</div>
+			<ul id="mobileMenu">
 				<li> Agenda</li>
 				<li> Inschrijven</li>
 				<li> Roosters</li>
@@ -34,14 +45,30 @@
 				<li> Opleidingen</li>				
 			</ul>				
 		</div>
-		<div id=contentbox>
-			
-		</div>
+		
 		<div id=content>
-			<div id=textbox>
+			<div class='bollen'> 
+			</div>
+							
+			<div id='tekstbox'>
+				<h1> over</h1>
+				<p>The Collapse Menu Button or Hamburger Button is a button placed 
+				typically in a top corner of a graphical user interface.[1] Its function 
+				is to toggle a menu between being collapsed behind the button or displayed 
+				on the screen. The icon typically associated with this menu is three horizontal 
+				bars is more formally known as the Collapsed Menu Icon however the term 
+				Hamburger Button gained acceptance and is commonly used.
+				</p>
+
 			
 			</div>
+			<div class='bollen'> 
+			</div>
+			
+		
 		</div>
+			
+		
 		
 		<div id=footer>
 			<div id=footercontent>
@@ -61,9 +88,9 @@
 					<p>Contact</p>
 					<ul>
 						<li>Contact </li>
+						<li>Informatie </li>
 					</ul>
 				</div>
-				
 				<div id=gegevens>
 				    <p> Adres: Hogeschool Hoogeveen, Hoogestraat 99</p>
 					<p> 06 25-73 21-34</p>
@@ -71,9 +98,16 @@
 				</div>	
 				
 			</div>
+
+		</div>
 			<div id=backtotop>
 				<a href='#'> <p> Back to top</p> </a>
 			</div>
-		</div>
+
+		<script>
+			$('#menuBtn').click(function(){
+				$('#mobileMenu').toggleClass('active');
+			});
+		</script>
 	</body>
 </html>
