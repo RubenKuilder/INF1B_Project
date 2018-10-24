@@ -19,7 +19,7 @@
 	top: 0;
 	left: 0;
 	z-index: 999;
-	background-color: #fcfcfc;
+	/* background-color: #fcfcfc; */
 	
 }
 
@@ -186,7 +186,6 @@
 	background-color: #62a7db; 
 	/* background-color: #cce8cc; */
 
-
 }
 
 #footercontent {
@@ -301,15 +300,16 @@
 }
 
 #informatiecontent{
+	background-color: none;
 	width: 60%;
 	height: 700px;
-	background-color: white;
 	margin-left: 20%;
 	margin-right: 20%;
+	margin-top: 50px;
 }
 
 #informatiecontent h1{
-	background-color: white;
+	background-color: none;
 	margin-bottom: 5px;
 	font-size: 22px;
 }
@@ -322,6 +322,11 @@
 	font-size: 12px;
 }
 
+#pinbox {
+	margin-top: 50px;
+}
+
+
 #pinbox h1{
 	font-size: 18px;
 	width: 190px;
@@ -333,7 +338,6 @@
 	margin-top: 4px;
 }
 .punten{
-	margin-left: 3px;
 	width: 33%;
 	float: left;
 }
@@ -347,24 +351,38 @@
 }
 
 .meerknop{
-	padding: 8px 20px;
+	width: 24%;
+	padding: 9px 0px; 
 	background-color: #62a7db;
 	float: left;
 	margin-top: 20px;
-	margin-left: 350px;
+	margin-left: 38%;
+	margin-right: 38%;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
+	text-align: center;
 }
 
 #opleidingen{
-	margin-top: 230px;
-}
+    margin-top: 75px;
+	float: left;
+	font-size: 0;
+	overflow: hidden;
+	background-color: none;
+	width: 100%;
+} 
 
 #opleidingen img{
 	width: 33%;
+	float: left;
+	font-size: 0;
+	max-width: 400px;
+	max-height: 400px;
+	margin-bottom: 25px;
 }
+
 @media screen and (max-width: 900px) {
 	#header #desktopMenu {
 		display: none;
@@ -383,12 +401,15 @@
 	#infor {
 		display: block;
 	}
+	
+
 }
 
 @media screen and (max-width: 600px) {
 	#textbox h1{
 		font-size: 40px;
 	}
+	
 }
 
 @media screen and (max-width: 500px) {
@@ -404,4 +425,39 @@
 	.moreknop{
 		margin-left: 10px;
 	}
+	
+	.meerknop{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+	#opleidingen img{
+		height: 300%;
+	}
+	#opleidingen img{
+		width: 100%;
+	}
+	
+	#informatiecontent{
+		height: 1550px;
+	}
+	
+	#informatiecontent p{
+	font-size: 14px;
+	}
+		
+}
+@media screen and (max-width: 1150px) {
+
+	.punten{
+		width: 100%;
+	}
+	
+
+	
+	
 }
