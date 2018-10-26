@@ -301,10 +301,10 @@
 
 .informatiecontent{
 	background-color: none;
-	width: 60%;
+	width: 80%;
 	height: 750px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 50px;
 }
 
@@ -351,13 +351,13 @@
 }
 
 .meerknop{
-	width: 24%;
+	width: 10%;
 	padding: 9px 0px; 
 	background-color: #62a7db;
 	float: left;
 	margin-top: 20px;
-	margin-left: 38%;
-	margin-right: 38%;
+	margin-left: 45%;
+	margin-right: 45%;
 	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
