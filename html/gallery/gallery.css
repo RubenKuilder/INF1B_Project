@@ -1,19 +1,13 @@
 div.gallery {
-	background-size: auto 190px;
+	background-size: auto 200px;
 	background-repeat: no-repeat;
 	background-position: center;
 	height:200px;
-	
 }
 
 div.gallery:hover {
     filter: blur(2px);
 	
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
 }
 div.gallerySelect {
 
@@ -25,7 +19,16 @@ div.menuItem {
 	text-align: center;
 	height:60px;
 }
-
+input[type=submit]{
+	border:none;
+	text-decoration: none;
+	cursor: pointer;
+	background-color:#62a7db;
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
 
 * {
     box-sizing: border-box;
@@ -35,6 +38,7 @@ div.menuItem {
     padding: 5px;
     float: left;
     width: 24.99999%;
+
 
 }
 

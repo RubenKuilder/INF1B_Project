@@ -65,8 +65,6 @@
 			<div class="meerknop">
 				<a href='#'> More </a>
 			</div>
-
-			
 			</div>
 			
 		
@@ -76,17 +74,23 @@
 			<div class="gallerySelect">
 				<div class="responsive">
 				  <div class="menuItem">
-					<h3>showcase</h3>
+					<form action="gallery.php" method="post">
+						<input type="submit" name='submit' value="showcase">
+					</form>
 				  </div>
 				</div>
 				<div class="responsive">
 				  <div class="menuItem">
-					<h3>open dag</h3>
+					<form action="gallery.php" method="post">
+						<input type="submit" name='submit' value="opendag">
+					</form>
 				  </div>
 				</div>
 				<div class="responsive">
 				  <div class="menuItem">
-					<h3>sport dag</h3>
+					<form action="gallery.php" method="post">
+						<input type="submit" name='submit' value="sportdag">
+					</form>
 				  </div>
 				</div>
 				<div class="responsive">
@@ -95,38 +99,40 @@
 				  </div>
 				</div>
 			</div>
+			
 			<div class="clearfix"></div>
 			
 			<div class="photos">
 				<?php
-					$source= glob("showcase/*.*");
-					
-					if(count($source)){
-						natcasesort($source);
-						for ($i=1; $i<count($source);$i++){
-							$num= $source[$i];
-							/*echo '
-							<div class="responsive">
-								<div class="gallery">
-									<a target="_blank" href="'.$num.'">
-									<img src="'.$num.'" alt="'.basename($num).'" >
-									</a>
-								</div>
-							</div>';*/
-							echo '
-							<div class="responsive"> 
-							<div class="gallery" style="background-image:url('.$num.');">
-							</div>
-							</div>';
+					function showcase($album = "showcase"){
+						$source= glob($album."/*.*");
+						if(count($source)){
+							natcasesort($source);
+							for ($i=1; $i<count($source);$i++){
+								$num= $source[$i];
+								echo '
+								<a href="'.$num.'">
+									<div class="responsive"> 
+										<div class="gallery" style="background-image:url('.$num.');">
+										</div>
+									</div>
+								</a>';
+							}
+						}else{
+							echo 'Sorry, geen afbeeldingen om te weergeven';
 						}
+					}
+					
+					if ($_SERVER["REQUEST_METHOD"] == "POST") {
+						$gallery = ($_POST['submit']);
+						showcase($gallery);
 					}else{
-						echo 'Sorry, geen afbeeldingen om te weergeven';
+						showcase();
 					}
 				?>
-		<div class="clearfix"></div>
+				<div class="clearfix"></div>
 			</div>
-			<div class="clearfix"></div>
-		
+
 		</div>
 		
 		<div id=footer>
