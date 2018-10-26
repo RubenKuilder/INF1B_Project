@@ -276,14 +276,15 @@
 }
 
 #textbox{
-	width: 46%;
-	/* max-width: 100%; */
-	height: 50%;
-	/* position: absolute; */
-	padding: 0 2%; 
-	/* top: 53%; */ 
-	/* transform: translateY(-50%); */ 
-	float: left;
+    width: 46%;
+    /* max-width: 100%; */
+    /* height: 50%; */
+    position: absolute;
+   	padding: 0 2%;
+   	box-sizing: border-box; 
+    top: 45%;
+    transform: translateY(-50%);
+    float: left;
 	
 	
 }
@@ -334,13 +335,16 @@
 
 #pinbox h1{
 	font-size: 18px;
-	width: 190px;
+	width: 100%;
+    padding-left: 40px;
+    box-sizing: border-box;
 }
 
 #pinbox p{
-	width: 190px;
-	margin-left: 40px;
-	margin-top: 4px;
+	width: 100%;
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin-top: 4px;
 }
 .punten{
 	width: 33%;
@@ -356,18 +360,24 @@
 }
 
 .meerknop{
-	width: 10%;
-	padding: 9px 0px; 
-	background-color: #62a7db;
-	float: left;
-	margin-top: 20px;
-	margin-left: 45%;
-	margin-right: 45%;
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	text-decoration: none;
-	text-align: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.meerknop a {
+    padding: 10px 20px;
+    background-color: #62a7db;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+#textbox .meerknop {
+	margin: 40px 0 40px auto;
+	text-align: left;
 }
 
 #opleidingen{
@@ -447,17 +457,21 @@
 }
 
 @media screen and (max-width: 500px) {
-	#textbox p{
+	#achtergrondcontent {
 		display: none;
+	}
+
+	#textbox {
+		padding: 0;
+		width: calc(100% - 40px);
+		margin: 0 auto;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    text-align: center;
 	}
 	
 	#textbox h1{
 		font-size: 28px;
-		margin-left: 10px;
-	}
-	
-	.moreknop{
-		margin-left: 10px;
 	}
 	
 	.meerknop{
@@ -485,10 +499,19 @@
 	}
 		
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 720px) {
 
 	.punten{
 		width: 100%;
+		text-align: center;
+	}
+
+	.punten img {
+		float: none;
+	}
+
+	#pinbox h1, #pinbox p{
+		padding: 0;
 	}
 	
 
