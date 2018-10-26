@@ -310,7 +310,7 @@
 	background-color: none;
 	width: calc(100% - 40px);
 	max-width: 960px;
-	height: 750px;
+	/*height: 750px; Kan dit weg?*/
 	margin: 50px auto;
 }
 
@@ -425,6 +425,11 @@
 	font-weight: 700;
 	font-size: 17px;
 	text-align: left;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 900px) {
