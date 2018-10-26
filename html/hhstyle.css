@@ -299,7 +299,7 @@
 	float: left;	
 }
 
-#informatiecontent{
+.informatiecontent{
 	background-color: none;
 	width: 60%;
 	height: 750px;
@@ -308,13 +308,13 @@
 	margin-top: 50px;
 }
 
-#informatiecontent h1{
+.informatiecontent h1{
 	background-color: none;
 	margin-bottom: 5px;
 	font-size: 22px;
 }
 
-#informatiecontent p{
+.informatiecontent p{
 	width: 100%;
 	margin-right: 20%;
 	margin-top: 10px;
@@ -380,7 +380,7 @@
 	font-size: 0;
 	max-width: 400px;
 	max-height: 400px;
-	opacity: 0.5;
+	opacity: 0.25;
 }
 
 .pinkblue{
@@ -393,6 +393,23 @@
 	max-height: 400px;
 	margin-bottom: 25px;
 	background-color: #E56399; 
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.opleidingtekst{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-weight: 700;
+}
+
+.opleidingtekst p{
+	font-weight: 700;
+	font-size: 17px;
+	text-align: left;
 }
 
 @media screen and (max-width: 900px) {
