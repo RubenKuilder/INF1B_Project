@@ -102,7 +102,7 @@
 			<div class="photos">
 				<?php
 					function showcase($album = "showcase"){
-						$source= glob("gallery/".$album."/*.*");
+						$source= glob("gallery/".str_replace(' ','_',$album)."/*.*");
 						if(count($source)){
 							natcasesort($source);
 							for ($i=0; $i<count($source);$i++){
