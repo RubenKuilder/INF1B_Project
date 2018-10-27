@@ -3,7 +3,7 @@
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
-		<link rel='stylesheet' href='../hhstyle.css' type='text/css'/>
+		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
 		<link rel='stylesheet' href='gallery.css' type='text/css'/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,32 +72,29 @@
 		<div class='informatiecontent'>
 		
 			<div class="gallerySelect">
-				<div class="responsive">
-				  <div class="menuItem">
-					<form action="gallery.php" method="post">
-						<input type="submit" name='submit' value="showcase">
-					</form>
-				  </div>
-				</div>
-				<div class="responsive">
-				  <div class="menuItem">
-					<form action="gallery.php" method="post">
-						<input type="submit" name='submit' value="opendag">
-					</form>
-				  </div>
-				</div>
-				<div class="responsive">
-				  <div class="menuItem">
-					<form action="gallery.php" method="post">
-						<input type="submit" name='submit' value="sportdag">
-					</form>
-				  </div>
-				</div>
-				<div class="responsive">
-				  <div class="menuItem">
-					
-				  </div>
-				</div>
+				<?php
+					function albumButton(){
+					$source= glob("gallery/*",GLOB_ONLYDIR);
+						if(count($source)){
+							natcasesort($source);
+							for ($i=0; $i<count($source);$i++){
+								$album= str_replace('_',' ',substr($source[$i],8));
+								echo '
+								<div class="responsive">
+								    <div class="menuItem">
+										<form action="gallery.php" method="post">
+											<input type="submit" name="submit" value="'.$album.'">
+										</form>
+									</div>
+								</div>';
+							}
+						}else{
+							echo 'Sorry, geen albums om te weergeven';
+						}
+					}
+					albumButton();
+				?>
+
 			</div>
 			
 			<div class="clearfix"></div>
@@ -105,15 +102,15 @@
 			<div class="photos">
 				<?php
 					function showcase($album = "showcase"){
-						$source= glob($album."/*.*");
+						$source= glob("gallery/".$album."/*.*");
 						if(count($source)){
 							natcasesort($source);
-							for ($i=1; $i<count($source);$i++){
-								$num= $source[$i];
+							for ($i=0; $i<count($source);$i++){
+								$pic= $source[$i];
 								echo '
-								<a href="'.$num.'">
+								<a href="'.$pic.'">
 									<div class="responsive"> 
-										<div class="gallery" style="background-image:url('.$num.');">
+										<div class="gallery" style="background-image:url('.$pic.');">
 										</div>
 									</div>
 								</a>';
