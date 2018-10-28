@@ -4,6 +4,11 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
 .clearFix {
 	content: "";
 	display: table;
@@ -66,7 +71,7 @@
 	color: black;
 }
 
-#header #desktopMenu {
+#header .desktopMenu {
 	float: right;
 	height: 100%;
 }
@@ -86,8 +91,7 @@
 	display: block;
 }
 
-#header #mobileMenu {
-	float: right;
+#header .mobileMenu {
 	display: none;
 	background: #fafafa;
 
@@ -97,11 +101,11 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-#header #mobileMenu.active {
+#header .mobileMenu.active {
 	display: block;
 }
 
-#header #mobileMenu::before {
+#header .mobileMenu::before {
 	content: "";
 	width: 20px;
 	height: 20px;
@@ -112,7 +116,7 @@
     background: #fafafa;
 }
 
-#header #desktopMenu li{
+#header .desktopMenu li{
 	padding: 0 20px ;
 	display: inline-block;
 	font-weight: 700;
@@ -120,9 +124,10 @@
 	list-style-type: none;
 	margin-right: 10px;
 	line-height: 70px;
+	position: relative;
 }
 
-#header #mobileMenu li{
+#header .mobileMenu li{
 	padding: 10px 20px ;
 	display: block;
 	font-weight: 700;
@@ -131,12 +136,70 @@
 	margin-top: 10px;
 }
 
-#header #mobileMenu li:first-child{
+#header .mobileMenu li:first-child{
+	margin-top: 0;
+}
+
+#header .desktopMenu li::after, #header .desktopMenu a::after {
+	content: "";
+	width: 0;
+	height: 2px;
+	background-color: #252525;
+	z-index: 999999;
+	position: absolute;
+	bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.2s all;
+}
+
+#header .desktopMenu li:hover::after, #header .desktopMenu a:hover::after {
+	width: 50%;
+}
+
+#header .desktopMenu .dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#header .desktopMenu .dropdown-content {
+	display: none;
+	background: #fafafa;
+
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	padding: 0 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#header .desktopMenu .dropdown-content::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	position: absolute;
+    top: -10px;
+    right: 4px;
+    background: #fafafa;
+}
+
+#header .desktopMenu .dropdown-content a {
+	display: block;
+	font-weight: 700;
+	text-align: right;
+	list-style-type: none;
+	margin: 0;
+	margin-top: 10px;
+	position: relative;
+}
+
+#header .desktopMenu .dropdown-content a:first-child{
 	margin-top: 0;
 }
 
 #content{
 	width: 100%;
+	height:200px;
 	/* background-image:url(images/achtergrondhh.png); */
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -432,7 +495,7 @@
 }
 
 @media screen and (max-width: 900px) {
-	#header #desktopMenu {
+	#header .desktopMenu {
 		display: none;
 	}
 
