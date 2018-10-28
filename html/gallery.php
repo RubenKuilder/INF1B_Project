@@ -30,23 +30,34 @@
 			
 			<div class=streepje></div>
 			
-			<ul id="desktopMenu">
-				<li> Agenda</li>
-				<li> Inschrijven</li>
-				<li> Roosters</li>
-				<li> Media</li>	
-				<li> Opleidingen</li>				
+			<ul class="desktopMenu">
+				<li><a href="#">Agenda</a></li>
+				<li><a href="#">Inschrijven</a></a></li>
+				<li><a href="#">Media</a></a></li>	
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Opleidingen</a>
+					<div class="dropdown-content">
+						<a href="#">Opleiding 1</a>
+						<a href="#">Opleiding 2</a>
+					</div>
+				</li>			
 			</ul>
 			
 			<div id="menuBtn">☰</div>
-			<ul id="mobileMenu">
-				<li> Agenda</li>
-				<li> Inschrijven</li>
-				<li> Roosters</li>
-				<li> Media</li>	
-				<li> Opleidingen</li>				
+			<ul class="mobileMenu">
+				<li>Agenda</li>
+				<li>Inschrijven</li>
+				<li>Media</li>
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Opleidingen</a>
+					<div class="dropdown-content">
+						<a href="#">Opleiding 1</a>
+						<a href="#">Opleiding 2</a>
+					</div>
+				</li>
 			</ul>				
 		</div>
+
 		<div id=content>
 			
 			<div id='achtergrondcontent'>
@@ -65,7 +76,10 @@
 			<div class="meerknop">
 				<a href='#'> More </a>
 			</div>
+			
 			</div>
+
+			<div class="clearFix"></div>
 			
 		
 		</div>
