@@ -272,6 +272,7 @@ a {
 	width: 100%; 
 	height: 200px;
 	background-color: #E56399; 
+	float: left;
 	/* background-color: #62a7db; */
 	/* background-color: #cce8cc; */
 
@@ -324,6 +325,7 @@ a {
 	height: 30px;
 	text-align: center;
 	background-color: #db5d8f;
+	float: left;
 	/* background-color: #5d9ccc; */ 
 	/* background-color: #bad1b8; */ 
 }
@@ -523,9 +525,8 @@ a {
 	#menuBtn {
 		display: block;
 	}
-}
+	
 
-@media screen and (max-width: 800px) {
 	#gegevens {
 		display: none;
 	}
@@ -539,29 +540,34 @@ a {
 
 @media screen and (max-width: 600px) {
 	#textbox h1{
-		font-size: 40px;
+		font-size: 28px;
 	}
 	
-}
+	#textbox {
+		padding: 0;
+		width: calc(100% - 40px);
+		height: 500px;
+		margin: 0 auto;
+		float: left;
+		margin-top: 400px;
+		margin-left: 20px;
+	    /* transform: translate(-50%, -50%); */
+	} 	
+	
+	.informatiecontent{
+		height: 2000px;
+		margin: 0 auto;
+		margin-top: 700px;
+		float: left;			
+		box-sizing: border-box; 
+		margin-left: 20px;		
 
-@media screen and (max-width: 500px) {
+	}
+	
 	#achtergrondcontent {
 		display: none;
 	}
 
-	#textbox {
-		padding: 0;
-		width: calc(100% - 40px);
-		margin: 0 auto;
-	    left: 50%;
-	    transform: translate(-50%, -50%);
-	    text-align: center;
-	}
-	
-	#textbox h1{
-		font-size: 28px;
-	}
-	
 	.meerknop{
 		width: 80%;
 		margin-left: 10%;
@@ -583,12 +589,16 @@ a {
 		width: 100%;
 	}
 	
-	#informatiecontent{
-		height: 1550px;
+	.opleidingtekst p{
+		font-size: 22px;
 	}
 	
 	#informatiecontent p{
 	font-size: 14px;
+	}
+	
+	.informatiecontent{
+	height: 1800px;
 	}
 		
 }
