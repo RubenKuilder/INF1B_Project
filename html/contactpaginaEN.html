@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='UTF-8'>
+		<meta name="viewport" content="width=device-width">
+		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+		
+		<title> Hogeschool Hoogeveen</title>
+	</head>
+	
+	<body>
+		<a name="top"></a>	
+		<div id=header> 
+			<a href='hmtlhogeschool.html'> <img src='images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
+			
+			<div class=streepje></div>
+			
+			<div id="languageSelect">
+				<a class="languageBtn" href="contactpagina.html">
+					NL
+				</a>
+				<a class="languageBtn active" href="contactpaginaEN.html">
+					EN
+				</a>
+			</div>
+			
+			<div class=streepje></div>
+			
+			<ul class="desktopMenu">
+				<li><a href="#">Agenda</a></li>
+				<li><a href="#">Register</a></a></li>
+				<li><a href="#">Media</a></a></li>	
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Studies</a>
+					<div class="dropdown-content">
+						<a href="#">Economical</a>
+						<a href="#">technical</a>
+					</div>
+				</li>			
+			</ul>
+			
+			<div id="menuBtn">☰</div>
+			<ul class="mobileMenu">
+				<li>Agenda</li>
+				<li>Register</li>
+				<li>Media</li>
+				<li class="dropdown">
+					<a href="#" class="dropbtn">Studies</a>
+					<div class="dropdown-content">
+						<a href="#">Economical</a>
+						<a href="#">technical</a>
+					</div>
+				</li>
+			</ul>				
+		</div>
+
+		<div id=content>
+							
+			<div id='contactcontent'>
+				<h1> Location & Contact</h1>
+				<p> Hogeschool Hoogeveen has one location at the moment.
+				<br>
+				<br>
+				hierkandemapkomentestaan
+				</p>
+				<h2> Address data:</h2>
+				<p> Hogeschool Hoogeveen </p>
+				<p> Hoogestraat 99 </p>
+				<p> 7912 AB Hoogeveen </p>					
+	
+				<h2> Mailing address: </h2>
+				<p> mailbox 6969 </p>
+				<p> 7912 AB Hoogeveen</p>
+
+				<h2> Parking & public transport:</h2>
+				<p> Students and staff can park their vehicles at the campus for free. 
+				Other visitors have to pay 2 euros per hour. 
+				The univursity is only a short distance away from the trainstation,
+				where a lot of busses drive by.
+				This makes the campus accessible for students who live far away from the school.</p>	
+				
+				<h2> Sociale media:</h2>	
+				<p> Follow us on<a href='https://twitter.com/?lang=nl'> Twitter </a> </p>
+				<p> Like our <a href='https://nl-nl.facebook.com/'> Facebook-page </a> </p>
+				<p> Subscribe to our<a href='https://www.youtube.com/'> Youtube-channel </a> </p>
+				
+				<h2> Contact details:</h2>
+				
+				<div id='telefoonnummer'> <a> <p> +31 (0)6 25-732 134</p> </a> </div>
+				<p> help@hogeschoolhoogeveen.nl</p>
+				
+			</div>
+
+			<div class="clearFix"></div>
+			
+		
+		</div>
+
+		<div id=footer>
+			<div id=footercontent>
+			
+				<div class=Links> 
+					<p>Links</p>
+					<ul>
+						<li>Studies </li>
+						<li>Media </li>
+						<li>Schedules </li>
+						<li>Register </li>
+						<li>Agenda </li>
+					</ul>
+				</div>
+				
+				<div class=Links> 
+					<p>Contact</p>
+					<ul>
+						<a href='contactpaginaEN.html'> <li>Information </li> </a>
+					</ul>
+				</div>
+				<div id=gegevens>
+				    <p> Adress: Hogeschool Hoogeveen, Hoogestraat 99</p>
+					<a> <p> 06 25-73 21-34</p> </a>
+					<p> help@hogeschoolhoogeveen.nl</p>
+				</div>	
+				
+			</div>
+
+		</div>
+			<div id=backtotop>
+				<a href='#top'> <p> Back to top</p> </a>
+			</div>
+
+
+		<script>
+			$('#menuBtn').click(function(){
+				$('#mobileMenu').toggleClass('active');
+			});
+		</script>
+	</body>
+</html>

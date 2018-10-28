@@ -309,7 +309,7 @@ a {
 	margin-bottom: 10px;
 }
 
-#gegevens{	
+#gegevens {	
 	width: 310px; 
 	height: 170px;
 	margin-top: 30px;
@@ -318,6 +318,16 @@ a {
 	font-weight: 400;
 	color: white; 
 	font-size: 13px;
+
+
+}
+
+#gegevens a{	
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: white;
+
 }
 
 #backtotop{
@@ -517,6 +527,48 @@ a {
     clear: both;
 }
 
+/*^vvvvv contactpagina vvvvvv */
+#contactcontent{
+	width: 80%;
+	height: 900px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#contactcontent h1{
+	margin-top: 100px;
+	text-align: left;
+	margin-bottom: 10px;
+	/* font-size: 44px; */
+	font-size: 30px;
+}
+
+#contactcontent h2{
+	margin-top: 25px;
+	text-align: left;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+#contactcontent a{
+	color: #62a7db;
+	font-weight: bold;
+}
+
+#contactcontent p{
+	text-align: left;
+	font-size: 12px;
+}
+
+#telefoonnummer a{
+	pointer-events: none;
+	cursor: default;
+	color: black;
+	font-weight: normal;
+	text-align: left;
+}
+/*^^^^^contactpagina^^^^*/
+
 @media screen and (max-width: 900px) {
 	#header .desktopMenu {
 		display: none;
@@ -541,6 +593,10 @@ a {
 @media screen and (max-width: 600px) {
 	#textbox h1{
 		font-size: 28px;
+	}
+	
+	#contactcontent a{
+		font-size: 17px;
 	}
 	
 	#textbox {
@@ -594,6 +650,10 @@ a {
 	}
 	
 	#informatiecontent p{
+	font-size: 14px;
+	}
+	
+	#contactcontent p{
 	font-size: 14px;
 	}
 	
