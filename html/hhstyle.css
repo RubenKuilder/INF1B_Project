@@ -405,7 +405,6 @@ a {
 	background-color: none;
 	width: calc(100% - 40px);
 	max-width: 960px;
-	/*height: 750px; Kan dit weg?*/
 	margin: 50px auto;
 }
 
@@ -611,7 +610,6 @@ a {
 	} 	
 	
 	.informatiecontent{
-		height: 2000px;
 		margin: 0 auto;
 		margin-top: 700px;
 		float: left;			
@@ -655,10 +653,6 @@ a {
 	
 	#contactcontent p{
 	font-size: 14px;
-	}
-	
-	.informatiecontent{
-	height: 1800px;
 	}
 		
 }

@@ -111,8 +111,6 @@
 
 			</div>
 			
-			<div class="clearfix"></div>
-			
 			<div class="photos">
 				<?php
 					function showcase($album = "showcase"){
@@ -141,7 +139,6 @@
 						showcase();
 					}
 				?>
-				<div class="clearfix"></div>
 			</div>
 
 		</div>
