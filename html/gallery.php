@@ -65,23 +65,13 @@
 			</div>
 							
 			<div id='textbox'>
-				<h1> Verleg je grenzen bij Hogeschool Hoogeveen  </h1>
-				<p>Door je grenzen te verleggen bereik je meer. 
-				Daarom dagen onze docenten je iedere dag uit je talenten te ontdekken en te ontwikkelen.
-				Deze ontdekkingsreis overstijgt de grenzen van je opleiding.
-				Je doet namelijk ook kennis op bij andere opleidingen en zelfs buiten de muren van onze hogeschool.
-				
-				</p>
-			
-			<div class="meerknop">
-				<a href='#'> More </a>
-			</div>
-			
+				<h1>Verleg je grenzen bij Hogeschool Hoogeveen</h1>
+				<br>
+				<h3>Bekijk onze foto's!</h3>
 			</div>
 
 			<div class="clearFix"></div>
 			
-		
 		</div>
 		<div class='informatiecontent'>
 		
@@ -108,12 +98,18 @@
 					}
 					albumButton();
 				?>
-
+				<div class="clearFix"></div>
 			</div>
 			
 			<div class="photos">
 				<?php
-					function showcase($album = "showcase"){
+					function showcase($album = "Onze school"){
+						echo '
+							<div class=galleryTitle>
+								<div class="galleryTitle2">
+									'.$album.'
+								</div>
+							</div>';
 						$source= glob("gallery/".str_replace(' ','_',$album)."/*.*");
 						if(count($source)){
 							natcasesort($source);
