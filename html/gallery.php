@@ -81,8 +81,8 @@
 					$source= glob("gallery/*",GLOB_ONLYDIR);
 						if(count($source)){
 							natcasesort($source);
-							for ($i=0; $i<count($source);$i++){
-								$album= str_replace('_',' ',substr($source[$i],8));
+							foreach ($source as $albumPath){
+								$album = str_replace('_',' ',substr($albumPath,8));
 								echo '
 								<div class="responsive">
 								    <div class="menuItem">
@@ -113,8 +113,7 @@
 						$source= glob("gallery/".str_replace(' ','_',$album)."/*.*");
 						if(count($source)){
 							natcasesort($source);
-							for ($i=0; $i<count($source);$i++){
-								$pic= $source[$i];
+							foreach ($source as $pic){
 								echo '
 								<a href="'.$pic.'">
 									<div class="responsive"> 
