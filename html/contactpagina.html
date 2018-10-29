@@ -2,13 +2,17 @@
 <html lang="nl">
 	<head>
 		<meta charset='UTF-8'>
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
 		
 		<title> Hogeschool Hoogeveen</title>
+		
 	</head>
 	
 	<body>
@@ -61,10 +65,29 @@
 							
 			<div id='contactcontent'>
 				<h1> Locatie & Contact</h1>
-				<p>Momenteel heeft Hogeschool Hoogeveen één locatie.
-				<br>
-				<br>
-				hierkandemapkomentestaan
+				<p>Momenteel heeft Hogeschool Hoogeveen één locatie. </p>
+				<p>
+					<div id="mapid" style=></div>
+					
+						<script>
+
+							
+							var mymap = L.map('mapid').setView([52.7267712,6.465842], 14);				
+							L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+								maxZoom: 18,
+								id: 'mapbox.streets'
+								
+							}).addTo(mymap);
+							var Marker = L.icon({
+								iconUrl: 'images/pinpink.png',
+								iconSize:     [100, 100], // size of the icon
+								popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+							});
+							
+							L.marker([52.7296723, 6.4570349], {icon: Marker}).addTo(mymap);							
+
+						</script>
+
 				</p>
 				<h2> Adresgegevens: </h2>
 				<p> Hogeschool Hoogeveen </p>
