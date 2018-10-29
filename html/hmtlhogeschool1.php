@@ -3,11 +3,11 @@
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
-		<link rel='stylesheet' href='hhstyleTim.css' type='text/css'/>
+		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-                 <link rel="stylesheet" type="text/css" href="Main.css">
+                 <!--<link rel="stylesheet" type="text/css" href="Main.css">-->
 		
 		<title> Hogeschool Hoogeveen</title>
 	</head>
