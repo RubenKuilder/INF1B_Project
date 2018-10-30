@@ -88,6 +88,69 @@
 
 						</script>
 				</p>
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+					<h2>Register for education</h2><p></p>
+					<h3>Personal information</h3>
+					
+					Name:
+					<input type="text" name="voornaam" id="voornaam" placeholder="First Name">
+					<input type="text" name="achternaam" id="achternaam" placeholder="Last Name">
+					<p></p>
+					 
+					E-mail adress:
+					<input type="text" name="email" id="email" placeholder="name@example.com"><p></p>
+					
+					Gender:
+					<input type="radio" name="geslacht" value="Man" id="radiogroup"> Man
+					<input type="radio" name="geslacht" value="Vrouw" id="radiogroup"> Woman
+					<input type="radio" name="geslacht" value="Overig" id="radiogroup"> Other
+					<p></p>
+					
+					Phone Number:
+					<input type="text" name="tel" id="tel"><p></p>
+					 
+					<h3>Education</h3>
+					 
+					Education:
+					
+					<select name="opleiding" id="opleiding">
+					<option selected>-- Please select --</option>
+					<option>Mechanical engineering</option>
+							<option>Lifesience: Biology and chemistry</option>
+							<option>Business economics</option>
+							<option>Logistics</option>
+						  </select><p></p>
+						  
+					English: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check to follow English-language education<p></p>
+					
+					<h3>Comments</h3>
+					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Fill in any details"></textarea><p></p>
+					 
+					<input type="submit" value="Send">
+				</form>
+			<?php
+				error_reporting (E_ALL ^ E_NOTICE);
+				$voornaam = $_POST["voornaam"];
+				$achternaam = $_POST["achternaam"];
+				$ww = $_POST["password"];
+				$email = $_POST["email"];
+				$geslacht = $_POST["geslacht"];
+				$tel = $_POST["tel"];
+				$op = $_POST["opleiding"];
+				$en = $_POST["engels"];
+				$opmerkingen = $_POST["opmerkingen"];
+				
+				$Bestand = fopen("$achternaam$voornaam.txt", 'w');
+				fwrite($Bestand, $voornaam);
+				fwrite($Bestand, $achternaam);
+				fwrite($Bestand, $email);
+				fwrite($Bestand, $geslacht);
+				fwrite($Bestand, $tel);
+				fwrite($Bestand, $op);
+				fwrite($Bestand, $en);
+				fwrite($bestand, $opmerkingen);
+				fclose($Bestand);
+			?>
 				<h2> Address data:</h2>
 				<p> Hogeschool Hoogeveen </p>
 				<p> Hoogestraat 99 </p>
