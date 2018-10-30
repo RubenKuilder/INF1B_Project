@@ -631,9 +631,9 @@ div .agendadiv {
 }
 
 @media screen and (max-width: 600px) {
-	.mapid{
+	#mapid{
 		height: 600px;
-		width: 400px;
+		width: 300px;
 	}
 	
 	#contactcontent{
