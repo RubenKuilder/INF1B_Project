@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
@@ -14,8 +14,10 @@
 	
 	<body>
 		<a name="top"></a>	
-		<div id=header> 
+		<div id=header>
+			<a href=index.php>		
 			<img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'>
+			</a>
 			
 			<div class=streepje></div>
 			
@@ -31,9 +33,9 @@
 			<div class=streepje></div>
 			
 			<ul class="desktopMenu">
-				<li><a href="#">Agenda</a></li>
-				<li><a href="#">Inschrijven</a></a></li>
-				<li><a href="#">Media</a></a></li>	
+				<li><a href="agenda.html">Agenda</a></li>
+				<li><a href="#">Sign up</a></a></li>
+				<li><a href="gallery.php">Media</a></a></li>	
 				<li class="dropdown">
 					<a href="#" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -65,9 +67,9 @@
 			</div>
 							
 			<div id='textbox'>
-				<h1>Verleg je grenzen bij Hogeschool Hoogeveen</h1>
+				<h1>Brighten your view at Hogeschool Hoogeveen</h1>
 				<br>
-				<h3>Bekijk onze foto's! Moet nog ff in engels</h3>
+				<h3>Look at our photos!</h3>
 			</div>
 
 			<div class="clearFix"></div>

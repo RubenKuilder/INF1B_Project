@@ -30,9 +30,9 @@
 			<div class=streepje></div>
 			
 			<ul class="desktopMenu">
-				<li><a href="#">Agenda</a></li>
-				<li><a href="#">Inschrijven</a></a></li>
-				<li><a href="#">Media</a></a></li>	
+				<li><a href="agenda.html">Agenda</a></li>
+				<li><a href="#">Sign up</a></a></li>
+				<li><a href="gallery.php">Media</a></a></li>	
 				<li class="dropdown">
 					<a href="#" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -64,13 +64,13 @@
 			</div>
 							
 			<div id='textbox'>
-				<h1>  Dit moet idd nog int engels pik autist </h1>
-				<p> Hogeschool Hoogenveen daagt jou elke dag uit om je talenten te ontwikkelen. 
+				<h1>Brighten your view at Hogeschool Hoogeveen</h1>
+				<!--<p> Hogeschool Hoogenveen daagt jou elke dag uit om je talenten te ontwikkelen. 
 				Onze docenten zullen je voorbereiden op een wereld die schreewt om vernieuwing.
 				Op onze school zul je leren oplossingen te vinden op problemen die veel impact hebben op de toekomst.
 				Met een onbeperkt aantal inschrijfplekken is er genoeg ruimte voor mensen met nieuwe ideeën. 
-				
-				</p>
+				</p>-->
+				<p>Our school is constantly pushing you to develop your talents. Our teachers wil prepare you for a ever changing world. On our school you'll learn to find solutions to problems that have a big impact on the future. With unlimited registrations for students there is enough space for people with innovating ideas.</p>
 			
 			<div class="meerknop">
 				<a href='#meerinformatie'> More </a>
@@ -84,47 +84,48 @@
 		</div>
 		<div class='informatiecontent'>
 			<a name='meerinformatie' > <h1>Hogeschool Hoogeveen</h1> </a>
-			<p> Hogeschool Hoogeveen is net nieuw en heeft momenteel 100 leerlingen, 
+			<!--<p> Hogeschool Hoogeveen is net nieuw en heeft momenteel 100 leerlingen, 
 			maar de school wil graag groeien en heeft een onbeperkt aantal plekken. 
 			De Hogeschool heeft 2 opleidingen: Technische opleidingen 'werktuigbouwkunde' en 'Lifesience biologie en chemie', 
 			ook heeft beschikt de school over de economische opleidingen 'bedrijfseconomie' en 'logistiek'. 
-			Alle opleidingen worden ook gegeven in het engels</p>
+			Alle opleidingen worden ook gegeven in het engels</p>-->
+			<p>Our school is very young and currently has 100 students. But we are growing very quickly and have lots of space left. We offer two courses. Technical: lifesience, chemistry and mechanical engineering. Economics: business-economy & logistics. All of our courses are also given in English.</p>
 		
 			<div id="pinbox">
 				<div class='punten'>
 					<img src="../assets/images/pin.png" alt="pin">
-					<h1> Weinig uitval</h1>
-					<p> Op onze hogeschool hebben wij weinig uitval</p>
+					<h1> Almost no dropouts</h1>
+					<p> On our school there are little dropouts</p>
 				</div>
 				<div class='punten'>
 					<img src="../assets/images/pin.png" alt="pin">
-					<h1> Top opleidingen</h1>
-					<p> Op onze hogeschool hebben wij de beste opleidingen</p>
+					<h1>The best courses</h1>
+					<p> We have the best courses on our school</p>
 				</div>
 				<div class='punten'>
 					<img src="../assets/images/pin.png" alt="pin">
-					<h1> Engelstalig</h1>
-					<p> Onze opleidingen worden ook gegeven in het Engels</p>
+					<h1> International</h1>
+					<p>All our courses are also given in Engelish</p>
 				</div>
 				<div class="clearFix"></div>
 			</div>
 			
 			<div class="meerknop">
-				<a href='#'> Inschrijven </a>
+				<a href='#'>Sign up</a>
 			</div>
 			
 		<div id="opleidingen">
 			<div class='pinkblue'> 
 				<img src="../assets/images/werktuigbouwkunde.png" alt="pin"> 
-				<div class='opleidingtekst'> <p> WERKTUIGBOUWKUNDE</p> </div>
+				<div class='opleidingtekst'> <p> MECHANICAL ENGINEERING</p> </div>
 			</div>
 			<div class='pinkblue'> 
 				<img src="../assets/images/economie.png" alt="pin">  
-				<div class='opleidingtekst'> <p> BEDRIJFSECONOMIE & LOGISTIEK</p> </div>
+				<div class='opleidingtekst'> <p> BUSINESS-ECONOMY & LOGISTICS</p> </div>
 			</div>
 			<div class='pinkblue'> 
 				<img src="../assets/images/lifesience.png" alt="pin">  
-				<div class='opleidingtekst'> <p> LIFESIENCE EN CHEMIE</p> </div>
+				<div class='opleidingtekst'> <p> LIFESIENCE AND CHEMISTRY</p> </div>
 			</div>
 		</div>
 
@@ -137,10 +138,10 @@
 				<div class=Links> 
 					<p>Links</p>
 					<ul>
-						<li>Opleidingen </li>
+						<li>Courses </li>
 						<li>Media </li>
 						<li>Roosters </li>
-						<li>Inschrijven </li>
+						<li>Sign up </li>
 						<li>Agenda </li>
 					</ul>
 				</div>
@@ -148,7 +149,7 @@
 				<div class=Links> 
 					<p>Contact</p>
 					<ul>
-						<a href='contactpagina.html'> <li>Informatie </li> </a>
+						<a href='contactpagina.html'> <li>Information </li> </a>
 					</ul>
 				</div>
 				<div id=gegevens>
