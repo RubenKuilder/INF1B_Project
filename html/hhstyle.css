@@ -609,6 +609,105 @@ div .agendadiv {
   }
 /*het gedeelte hierboven is voor de agenda*/
 
+/*ECO*/
+#ecocontentbox{
+    margin-top: 75px;
+    float: left;
+    overflow: hidden;
+    background-color: none;
+    width: 100%;
+    Height: 1000px
+} 
+
+.middelsteBlok{
+    width: 29%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 25px;
+    background-color: #f2f2f2;
+    position: relative;
+    text-align: center;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.middelsteBlok p{
+    font-size: 16px; 
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.rssFeedBox {
+    background-color: #f2f2f2;
+    width: 29%;
+    height: 498px;
+    float: left;
+    overflow-y: scroll;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: black;
+    margin-top: 25px;   
+}
+
+.nonclick {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.rel {
+    position: relative;
+    width: 100%;
+}
+.rssGround iframe {
+    width: 28.33%;
+    min-width: 236px;
+    float: left;
+    margin-top: 8%;
+}
+.bovensteBalk {
+    height: 100px;
+    width: 100%;
+    /*background-color: green;*/
+}
+
+
+.feed-container {
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid #CCCCCC;
+}
+.feed-container {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 498px;
+}
+
+.fontSize {
+    font-size: 140%;
+    font-weight: 700;
+}
+
+#textbox{
+    text-align: left;
+}
+
+#backgroundimageECO{
+	background-image:url(images/economieachtergrond.png);
+	height: 700px;
+	width: 700px;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: 700px;
+	max-width: 100%;
+}
+/*ECO*/
+
 @media screen and (max-width: 900px) {
 	#header .desktopMenu {
 		display: none;
@@ -636,6 +735,16 @@ div .agendadiv {
 		width: 300px;
 	}
 	
+	.middelsteBlok {
+            width: 100%;
+        }
+        
+        
+    .rssFeedBox {
+            width: 100%;
+
+        }   
+		
 	#contactcontent{
 		width: 100%;
 		height: 1300px;
@@ -732,74 +841,4 @@ div .agendadiv {
 	
 	
 }
-.nonclick {
-    position: absolute;
-    height: 100%;
-    width: 100%;
 
-}
-.rel {
-    position: relative;
-    width: 100%;
-}
-.rssGround iframe {
-    width: 28.33%;
-    min-width: 236px;
-    float: left;
-    margin-top: 8%;
-}
-.bovensteBalk {
-    height: 100px;
-    width: 100%;
-    /*background-color: green;*/
-}
-.middelsteBlok {
-    width: 28.33%;
-    float: left;
-    height: 200px;
-    margin-left: 4%;
-    background-color: #f2f2f2;
-    margin-top: 8%;
-    min-width: 272.445px;
-    /*border: solid 1px #bababa;*/
-}
-.rechterBlok {
-    width: 28.33%;
-    float: left;
-    height: 200px;
-    margin-left: 4%;
-    background-color: #f2f2f2;
-    margin-top: 8%;
-    min-width: 272.445px;
-    /*border: solid 1px #bababa;*/
-}
-.feed-container {
-    font-size: 12px;
-    color: #fff;
-    border: 1px solid #CCCCCC;
-}
-.feed-container {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    height: 498px;
-}
-.rssFeedBox {
-    background-color: #f2f2f2;
-    width: 28.33%;
-    height: 498px;
-    float: left;
-    overflow-y: scroll;
-    margin-top: 8%;
-    min-width: 290.445px;
-    margin-left: 4%;
-
-}
-.fontSize {
-    font-size: 140%;
-    font-weight: 700;
-}
-
-#textbox{
-    text-align: left;
-}
