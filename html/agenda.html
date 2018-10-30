@@ -11,36 +11,7 @@
 		<link href='../assets/stylesheets/hhstyle.css' rel='stylesheet' />
 		<link href='../assets/stylesheets/fullcalendar.print.min.css' rel='stylesheet' media='print' />
 		<script src='../assets/scripts/moment.min.js'></script>
-		<script src='../assets/scripts/jquery.min.js'></script>
 		<script src='../assets/scripts/fullcalendar.min.js'></script>
-		<script>
-
-			$(document).ready(function() {
-
-			$('#calendar').fullCalendar({
-			header: {
-				left: 'prev,next today',
-				center: 'title',
-				right: 'month,agendaWeek,agendaDay,listWeek'
-			  },
-			  defaultDate: '2018-03-12',
-			  editable: true,
-			  navLinks: true, // can click day/week names to navigate views
-			  eventLimit: true, // allow "more" link when too many events
-			  events: {
-				url: '../assets/php/get-events.php',
-				error: function() {
-				  $('#script-warning').show();
-				}
-			  },
-			  loading: function(bool) {
-				$('#loading').toggle(bool);
-			  }
-			});
-
-		  });
-
-		</script>
 		<title> Hogeschool Hoogeveen</title>
 	</head>
 	
@@ -165,8 +136,34 @@
 
 
 		<script>
-			$('#menuBtn').click(function(){
-				$('#mobileMenu').toggleClass('active');
+
+
+			$(document).ready(function() {
+				$('#menuBtn').click(function(){
+					$('.mobileMenu').toggleClass('active');
+				});
+
+				$('#calendar').fullCalendar({
+				header: {
+					left: 'prev,next today',
+					center: 'title',
+					right: 'month,agendaWeek,agendaDay,listWeek'
+				  },
+				  defaultDate: '2018-03-12',
+				  editable: true,
+				  navLinks: true, // can click day/week names to navigate views
+				  eventLimit: true, // allow "more" link when too many events
+				  events: {
+					url: '../assets/php/get-events.php',
+					error: function() {
+					  $('#script-warning').show();
+					}
+				  },
+				  loading: function(bool) {
+					$('#loading').toggle(bool);
+				  }
+				});
+
 			});
 		</script>
 	</body>
