@@ -183,7 +183,7 @@
 
 		<script>
 			$('#menuBtn').click(function(){
-				$('#mobileMenu').toggleClass('active');
+				$('.mobileMenu').toggleClass('active');
 			});
 		</script>
 	</body>
