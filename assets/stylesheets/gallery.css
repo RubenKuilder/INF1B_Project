@@ -1,0 +1,66 @@
+div.gallery {
+	background-size: auto 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:200px;
+}
+
+div.gallery:hover {
+    filter: blur(2px);
+	
+}
+div.menuItem {
+	background-color:#62a7db;
+	padding-top:20px;
+	text-align: center;
+	height:60px;
+}
+input[type=submit]{
+	border:none;
+	text-decoration: none;
+	cursor: pointer;
+	background-color:#62a7db;
+	color:white;
+	font-size:17px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+div.galleryTitle{
+	width:100%;
+	padding: 5px;
+}
+div.galleryTitle2{
+	height:60px;
+	text-align: center;
+	color:black;
+	font-size:20px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	padding-top:15px;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+}
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 5px;
+    float: left;
+    width: 24.99999%;
+
+
+}
+
+@media only screen and (max-width: 790px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}

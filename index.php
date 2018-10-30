@@ -7,8 +7,6 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		
-		<!-- CSS Files -->
-		<link rel="stylesheet" type="text/css" href="../assets/stylesheets/main.css">
 	</head>
 	<body>
 		<!-- PHP language redirect script -->
@@ -18,8 +16,8 @@
 	    <?php
 	    // List of available localized versions as 'lang code' => 'url' map
 	    $sites = array(
-	        "en" => "en/index.html",
-	        "nl" => "nl/index.html",
+	        "en" => "en/index.php",
+	        "nl" => "nl/index.php",
 	    );
 
 	    // Get 2 char lang code
