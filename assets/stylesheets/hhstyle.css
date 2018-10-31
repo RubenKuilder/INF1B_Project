@@ -819,7 +819,7 @@ div .agendadiv {
     padding-bottom: 50px;
 } 
 #backgroundimageECO{
-	background-image:url(images/economieachtergrond.png);
+	background-image:url(../images/economieachtergrond.png);
 	height: 700px;
 	width: 700px;
 	float: right;
