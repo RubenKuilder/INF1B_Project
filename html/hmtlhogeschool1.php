@@ -3,7 +3,7 @@
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
-		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
+                <link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
@@ -14,7 +14,7 @@
 	<body>
 		<a name="top"></a>	
 		<div id=header> 
-			<img src='images/logohh.png' alt='Hogeschool Hoogeveen'>
+			<img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'>
 			
 			<div class=streepje></div>
 			

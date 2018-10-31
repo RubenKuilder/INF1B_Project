@@ -796,3 +796,13 @@ div .agendadiv {
 #textbox{
     text-align: left;
 }
+#ecocontentbox{
+    margin-top: 75px;
+    float: left;
+    overflow: hidden;
+    background-color: none;
+    width: 100%;
+    /*Height: 1000px*/
+    height: 120%;
+    padding-bottom: 50px;
+} 
