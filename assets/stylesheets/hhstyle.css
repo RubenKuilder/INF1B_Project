@@ -827,3 +827,13 @@ div .agendadiv {
 	background-size: 700px;
 	max-width: 100%;
 }
+
+#backgroundimageTECH{
+	background-image:url(../images/techniekachtergrond.png);
+	height: 700px;
+	width: 700px;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: 700px;
+	max-width: 100%;
+}

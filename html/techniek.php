@@ -3,7 +3,7 @@
     <head>
         <meta charset='UTF-8'>
         <meta name="viewport" content="width=device-width">
-        <link rel='stylesheet' href='hhstyle.css' type='text/css'/>
+        <link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
@@ -61,12 +61,13 @@
             </div>
 
             <div id='achtergrondcontent'>
-                <div id='backgroundimageECO'> </div>
+                <div id='backgroundimageTECH'> 
+                </div>
             </div>
 
             <div id='textbox'>
                 <h1> Werktuigbouwkunde & Lifescience</h1>
-                <p> It's all about techniek.
+                <p> Bij de hbo-studies Werktuigbouwkunde en Lifescience leer je combinaties te maken om oplossingen te vinden voor je klanten. Je moet dus creatief zijn en klantgericht. Als werktuigbouwkundige en lifescientist is geen dag hetzelfde!​
 
                 </p>
 
