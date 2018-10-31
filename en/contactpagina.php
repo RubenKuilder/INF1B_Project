@@ -67,7 +67,7 @@
 							
 			<div id='contactcontent'>
 				<h1> Contact</h1>
-				<p>Hogeschool Hoogeveen heeft één locatie. </p>
+				<p>Hogeschool Hoogeveen has one location. </p>
 				<p>
 					<div id="mapid" style=></div>
 					
