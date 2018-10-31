@@ -80,19 +80,6 @@
 
         </div>
         <div class="informatiecontent">
-            <div>
-                <div>
-                    <section class="rel">
-                        <div class="nonclick"></div>
-
-                        <iframe src="https://www.quintrics.nl/OneBusiness/v1/Instruments/IndicesBar" style="width:100%;height:61px;" frameborder="0" scrolling="no"></iframe>
-
-                        <script> define('SCRIPT_DEBUG', true);</script>
-                    </section>
-
-                </div>
-            </div>
-            <div class="bovensteBalk"></div>
             <div id="ecocontentbox">       
 
 
