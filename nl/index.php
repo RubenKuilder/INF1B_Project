@@ -18,7 +18,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 		
-		<title> Hogeschool Hoogeveen</title>
+		<title>Hogeschool Hoogeveen</title>
 	</head>
 	
 	<body>
@@ -55,7 +55,7 @@
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</li>
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>

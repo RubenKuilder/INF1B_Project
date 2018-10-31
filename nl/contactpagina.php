@@ -2,60 +2,66 @@
 <html lang="nl">
 	<head>
 		<meta charset='UTF-8'>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4ac0ff">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+
 		<link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
+
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-		<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-		<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
 		
 		<title> Hogeschool Hoogeveen</title>
-		
 	</head>
 	
 	<body>
 		<a name="top"></a>	
-		<div id=header> 
-			<a href='hmtlhogeschool.html'> <img src='images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
+		<div id="header"> 
+			<a href='index.php'> <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
 			
-			<div class=streepje></div>
+			<div class="streepje"></div>
 			
 			<div id="languageSelect">
-				<a class="languageBtn active" href="contactpagina.html">
+				<a class="languageBtn active" href="contactpagina.php">
 					NL
 				</a>
-				<a class="languageBtn" href="contactpaginaEN.html">
+				<a class="languageBtn" href="../en/contactpagina.php">
 					EN
 				</a>
 			</div>
 			
-			<div class=streepje></div>
+			<div class="streepje"></div>
 			
 			<ul class="desktopMenu">
-				<li><a href="#">Agenda</a></li>
-				<li><a href="#">Inschrijven</a></a></li>
-				<li><a href="#">Media</a></a></li>	
+				<li><a href="agenda.php">Agenda</a></li>
+				<li><a href="contactpagina.php">Contact</a></a></li>
+				<li><a href="gallery.php">Media</a></a></li>	
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="#">Opleiding 1</a>
-						<a href="#">Opleiding 2</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>			
 			</ul>
 			
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
-				<li>Agenda</li>
-				<li>Inschrijven</li>
-				<li>Media</li>
+				<li><a href="agenda.php">Agenda</a></li>
+				<li><a href="contactpagina.php">Contact</a></li>
+				<li><a href="gallery.php">Media</li>
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="#">Opleiding 1</a>
-						<a href="#">Opleiding 2</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>
 			</ul>				
