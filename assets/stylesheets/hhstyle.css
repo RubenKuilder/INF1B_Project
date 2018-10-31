@@ -475,36 +475,30 @@ a {
 }
 
 #opleidingen{
-    margin-top: 75px;
-	float: left;
-	font-size: 0;
-	overflow: hidden;
-	background-color: none;
-	width: 100%;
+	text-align: center;
 } 
 
 #opleidingen img{
 	width: 100%;
-	float: left;
-	font-size: 0;
 	max-width: 400px;
 	max-height: 400px;
 	opacity: 0.25;
 }
 
 .pinkblue{
-	width: 29%;
-	float: left;
-	margin-left: 2%;
-	margin-right: 2%;
-	font-size: 0;
-	max-width: 400px;
-	max-height: 400px;
-	margin-bottom: 25px;
-	background-color: #E56399; 
-    position: relative;
-    text-align: center;
+	position: relative;
+    width: calc(33% - 20px);
+    height: 25vw;
+    max-height: 300px;
+	background-color: #E56399;
+    display: inline-block;
+    margin: 10px 0;
+    overflow: hidden;
     color: white;
+}
+
+.pinkblue:nth-child(3n+2):not(:last-child) {
+    margin: 10px 20px;
 }
 
 .opleidingtekst{
@@ -513,13 +507,9 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 	font-weight: 700;
+	font-size: 17px;
 }
 
-.opleidingtekst p{
-	font-weight: 700;
-	font-size: 17px;
-	text-align: left;
-}
 .clearfix:after {
     content: "";
     display: table;

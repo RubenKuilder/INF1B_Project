@@ -114,18 +114,14 @@
 			</div>
 			
 		<div id="opleidingen">
-			<div class='pinkblue'> 
-				<img src="../assets/images/werktuigbouwkunde.png" alt="pin"> 
-				<div class='opleidingtekst'> <p> WERKTUIGBOUWKUNDE</p> </div>
-			</div>
-			<div class='pinkblue'> 
+			<a class='pinkblue' href="economie.php"> 
 				<img src="../assets/images/economie.png" alt="pin">  
-				<div class='opleidingtekst'> <p> BEDRIJFSECONOMIE & LOGISTIEK</p> </div>
-			</div>
-			<div class='pinkblue'> 
+				<div class='opleidingtekst'>Economie</div>
+			</a>
+			<a class='pinkblue' href="techniek.php">
 				<img src="../assets/images/lifesience.png" alt="pin">  
-				<div class='opleidingtekst'> <p> LIFESIENCE EN CHEMIE</p> </div>
-			</div>
+				<div class='opleidingtekst'>Techniek</div>
+			</a>
 		</div>
 
 			<div class="clearFix"></div>
