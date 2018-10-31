@@ -529,7 +529,7 @@ a {
 /*^vvvvv contactpagina vvvvvv */
 #contactcontent{
 	width: 80%;
-	height: 1100px;
+	padding: 40px 0;
 	margin-left: 10%;
 	margin-right: 10%;
 }

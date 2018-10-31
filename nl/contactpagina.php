@@ -3,7 +3,7 @@
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
+		<link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
@@ -79,7 +79,7 @@
 								
 							}).addTo(mymap);
 							var Marker = L.icon({
-								iconUrl: 'images/pinpink.png',
+								iconUrl: '../assets/images/pinpink.png',
 								iconSize:     [100, 100], // size of the icon
 								popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 							});
@@ -89,6 +89,69 @@
 						</script>
 
 				</p>
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+					<h2>Inschrijven voor opleiding</h2><p></p>
+					<h3>Persoonlijke gegevens</h3>
+					
+					Naam:
+					<input type="text" name="voornaam" id="voornaam" placeholder="Voornaam">
+					<input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+					<p></p>
+					 
+					E-mail adres:
+					<input type="text" name="email" id="email" placeholder="naam@example.com"><p></p>
+					
+					Geslacht:
+					<input type="radio" name="geslacht" value="Man" id="radiogroup"> Man
+					<input type="radio" name="geslacht" value="Vrouw" id="radiogroup"> Vrouw
+					<input type="radio" name="geslacht" value="Overig" id="radiogroup"> Overig
+					<p></p>
+					
+					Telefoonnummer:
+					<input type="text" name="tel" id="tel"><p></p>
+					 
+					<h3>Opleiding</h3>
+					 
+					Opleiding:
+					
+					<select name="opleiding" id="opleiding">
+					<option selected>-- Selecteer a.u.b. --</option>
+					<option>Werktuigbouwkunde</option>
+							<option>Lifesience: Biologie en chemie</option>
+							<option>Bedrijfsecnomie</option>
+							<option>Logistiek</option>
+						  </select><p></p>
+						  
+					Engels: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check om Engelstalige opleiding te volgen<p></p>
+					
+					<h3>Opmerkingen</h3>
+					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Vul eventuele bijzonderheden in"></textarea><p></p>
+					 
+					<input name="submit" type="submit" value="verstuur">
+				</form>
+			<?php
+				if(isset ($_POST["submit"])){
+				$voornaam = $_POST["voornaam"];
+				$achternaam = $_POST["achternaam"];
+				$ww = $_POST["password"];
+				$email = $_POST["email"];
+				$geslacht = $_POST["geslacht"];
+				$tel = $_POST["tel"];
+				$op = $_POST["opleiding"];
+				$en = $_POST["engels"];
+				$opmerkingen = $_POST["opmerkingen"];
+				
+				$Bestand = fopen("$achternaam$voornaam.txt", 'w');
+				fwrite($Bestand, $voornaam);
+				fwrite($Bestand, $achternaam);
+				fwrite($Bestand, $email);
+				fwrite($Bestand, $geslacht);
+				fwrite($Bestand, $tel);
+				fwrite($Bestand, $op);
+				fwrite($Bestand, $en);
+				fwrite($bestand, $opmerkingen);
+				fclose($Bestand);}
+			?>
 				<h2> Adresgegevens: </h2>
 				<p> Hogeschool Hoogeveen </p>
 				<p> Hoogestraat 99 </p>

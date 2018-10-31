@@ -13,10 +13,10 @@
 	
 	<body>
 		<a name="top"></a>	
-		<div id=header> 
-			<a href='hmtlhogeschool.html'> <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
+		<div id="header"> 
+			<a href='index.php'> <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
 			
-			<div class=streepje></div>
+			<div class="streepje"></div>
 			
 			<div id="languageSelect">
 				<a class="languageBtn active" href="index.php">
@@ -27,37 +27,37 @@
 				</a>
 			</div>
 			
-			<div class=streepje></div>
+			<div class="streepje"></div>
 			
 			<ul class="desktopMenu">
-				<li><a href="#">Agenda</a></li>
-				<li><a href="#">Inschrijven</a></a></li>
-				<li><a href="#">Media</a></a></li>	
+				<li><a href="agenda.php">Agenda</a></li>
+				<li><a href="contactpagina.php">Contact</a></a></li>
+				<li><a href="gallery.php">Media</a></a></li>	
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="#">Opleiding 1</a>
-						<a href="#">Opleiding 2</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>			
 			</ul>
 			
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
-				<li>Agenda</li>
-				<li>Inschrijven</li>
-				<li>Media</li>
+				<li><a href="agenda.php">Agenda</a></li>
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="gallery.php">Media</li>
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="#">Opleiding 1</a>
-						<a href="#">Opleiding 2</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>
 			</ul>				
 		</div>
 
-		<div id=content>
+		<div id="content">
 			
 			<div id='achtergrondcontent'>
 				<div id='backgroundimage'> </div>
@@ -110,7 +110,7 @@
 			</div>
 			
 			<div class="meerknop">
-				<a href='#'> Inschrijven </a>
+				<a href='contact.php'> Inschrijven </a>
 			</div>
 			
 		<div id="opleidingen">
@@ -131,27 +131,34 @@
 			<div class="clearFix"></div>
 		</div>
 
-		<div id=footer>
-			<div id=footercontent>
+		<div id="footer">
+			<div id="footercontent">
 			
-				<div class=Links> 
-					<p>Links</p>
+				<div class="Links"> 
+					<p>Algemeen</p>
 					<ul>
-						<li>Opleidingen </li>
-						<li>Media </li>
-						<li>Roosters </li>
-						<li>Inschrijven </li>
-						<li>Agenda </li>
+						<a href="index.php"><li>Home</li></a>
+						<a href="agenda.php"><li>Agenda</li></a>
+						<a href="gallery.php"><li>Media</li></a>
 					</ul>
 				</div>
 				
-				<div class=Links> 
+				<div class="Links"> 
 					<p>Contact</p>
 					<ul>
-						<a href='contactpagina.html'> <li>Informatie </li> </a>
+						<a href='contactpagina.php'> <li>Contact </li></a>
+						<a href='contactpagina.php'> <li>Inschrijven </li></a>
 					</ul>
 				</div>
-				<div id=gegevens>
+				<div class="Links"> 
+					<p>Opleidingen</p>
+					<ul>
+						<a href="opleidingen.php"><li>Opleidingen</li></a>
+						<a href="techniek.php"><li>Techniek</li></a>
+						<a href="economie.php"><li>Economie</li></a>
+					</ul>
+				</div>
+				<div id="gegevens">
 				    <p> Adres: Hogeschool Hoogeveen, Hoogestraat 99</p>
 					<a> <p> 06 25-73 21-34</p> </a>
 					<p> help@hogeschoolhoogeveen.nl</p>
@@ -160,7 +167,7 @@
 			</div>
 
 		</div>
-			<div id=backtotop>
+			<div id="backtotop">
 				<a href='#top'> <p> Back to top</p> </a>
 			</div>
 
