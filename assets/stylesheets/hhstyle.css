@@ -818,3 +818,12 @@ div .agendadiv {
     height: 120%;
     padding-bottom: 50px;
 } 
+#backgroundimageECO{
+	background-image:url(images/economieachtergrond.png);
+	height: 700px;
+	width: 700px;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: 700px;
+	max-width: 100%;
+}
