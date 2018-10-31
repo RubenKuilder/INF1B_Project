@@ -66,7 +66,12 @@
 							
 			<div id='textbox'>
 				<h1> Bedrijfseconomie & Logistiek</h1>
-				<p> Wij geven economie 
+				<p> Er is een brede basis nodig in marketing en sales.
+                                    Je leert samenwerken, presenteren en pitchen. 
+                                    En je leert omgaan met een wereld die steeds sneller verandert.
+                                    Verder doe je regelmatig onderzoek. 
+                                    Zo kom je erachter wat de klant wil. 
+                                    En hoe je de juiste doelgroep bereikt en je product echt onderscheidend maakt.
 				
 				</p>
 			
