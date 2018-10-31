@@ -116,7 +116,7 @@
                 <div class="rssFeedBox">
 
                     <?php
-                    $feed = "https://www.beurs.nl/rss/nieuws.rss";
+                    $feed = "https://www.technologyreview.com/topnews.rss";
                     $xml = simplexml_load_file($feed);
                     $xml2 = simplexml_load_file($feed);
 
