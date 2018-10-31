@@ -710,6 +710,18 @@ div .agendadiv {
 }
 /*ECO*/
 
+/*algemeneopleidingen*/
+#backgroundimageopleidingen{
+	background-image:url(images/opleidingenachtergrond.png);
+	height: 700px;
+	width: 700px;
+	float: right;
+	background-repeat: no-repeat;
+	background-size: 700px;
+	max-width: 100%;
+}
+/*algemeneopleidingen*/
+
 @media screen and (max-width: 900px) {
 	#header .desktopMenu {
 		display: none;
