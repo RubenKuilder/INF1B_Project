@@ -3,12 +3,22 @@
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4ac0ff">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+
 		<link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
+
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 		
-		<title> Hogeschool Hoogeveen</title>
+		<title>Hogeschool Hoogeveen</title>
 	</head>
 	
 	<body>
@@ -45,7 +55,7 @@
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</li>
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
