@@ -91,6 +91,7 @@
 
         </div>
         <div class="informatiecontent">
+		<a name='#meerinformatie'> </a>
             <div id="ecocontentbox">       
 
 

@@ -91,6 +91,7 @@
 		
 		</div>
 		<div class='informatiecontent'>
+
 			<a name='meerinformatie' > <h1> Opleidingen</h1> </a>
 			<p> Hogeschool Hoogeveen heeft 2 opleidingen, beide hebben 2 afstudeerrichtingen. De technische opleiding heeft als 
 			afstudeerrichting 'werktuigbouwkunde' en 'Lifesience biologie en chemie', 
