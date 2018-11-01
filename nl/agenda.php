@@ -1,38 +1,34 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
-
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4ac0ff">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="theme-color" content="#ffffff">
-
-		<link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
-
+		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-		
+		<link href='../assets/stylesheets/fullcalendar.min.css' rel='stylesheet' />
+		<link href='../assets/stylesheets/hhstyle.css' rel='stylesheet' />
+		<link href='../assets/stylesheets/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+		<script src='../assets/scripts/moment.min.js'></script>
+		<script src='../assets/scripts/fullcalendar.min.js'></script>
 		<title> Hogeschool Hoogeveen</title>
 	</head>
 	
 	<body>
 		<a name="top"></a>	
 		<div id="header"> 
-			<a href='index.php'> <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
+			<a href='index.php'> 
+			<img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> 
+			</a>
 			
 			<div class="streepje"></div>
 			
 			<div id="languageSelect">
-				<a class="languageBtn active" href="agenda.php">
+				<a class="languageBtn active" href="../nl/agenda.php">
 					NL
 				</a>
-				<a class="languageBtn" href="../en/agenda.php">
+				<a class="languageBtn" href="agenda.php">
 					EN
 				</a>
 			</div>
@@ -55,7 +51,7 @@
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contactpagina.php">Contact</a></li>
+				<li><a href="contact.php">Contact</a></li>
 				<li><a href="gallery.php">Media</li>
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
@@ -67,21 +63,20 @@
 			</ul>				
 		</div>
 
-		<div id=content>
+		<div id="content">
 			
 			<div id='achtergrondcontent'>
 				<div id='backgroundimage'> </div>
 			</div>
 							
 			<div id='textbox'>
-				<h1> Verleg je grenzen bij Hogeschool Hoogeveen  </h1>
-				<p>Door je grenzen te verleggen bereik je meer. 
-				Daarom dagen onze docenten je iedere dag uit je talenten te ontdekken en te ontwikkelen.
-				Deze ontdekkingsreis overstijgt de grenzen van je opleiding.
-				Je doet namelijk ook kennis op bij andere opleidingen en zelfs buiten de muren van onze hogeschool.
+				<h1>Verleg je grenzen bij Hogeschool Hoogeveen</h1>
+				<p> Hogeschool Hoogenveen daagt jou elke dag uit om je talenten te ontwikkelen. 
+				Onze docenten zullen je voorbereiden op een wereld die schreewt om vernieuwing.
+				Op onze school zul je leren oplossingen te vinden op problemen die veel impact hebben op de toekomst.
+				Met een onbeperkt aantal inschrijfplekken is er genoeg ruimte voor mensen met nieuwe ideeën. 
 				
 				</p>
-			
 			<div class="meerknop">
 				<a href='#'> More </a>
 			</div>
@@ -142,7 +137,7 @@
 			</div>
 
 		</div>
-			<div id=backtotop>
+			<div id="backtotop">
 				<a href='#top'> <p> Back to top</p> </a>
 			</div>
 
