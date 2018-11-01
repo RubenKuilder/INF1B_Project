@@ -14,7 +14,7 @@
     <body>
         <a name="top"></a>	
         <div id=header> 
-            <img src='images/logohh.png' alt='Hogeschool Hoogeveen'>
+            <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'>
 
             <div class=streepje></div>
 
