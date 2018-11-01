@@ -70,15 +70,13 @@
 			</div>
 							
 			<div id='textbox'>
-				<h1>Verleg je grenzen bij Hogeschool Hoogeveen</h1>
-				<p> Hogeschool Hoogenveen daagt jou elke dag uit om je talenten te ontwikkelen. 
-				Onze docenten zullen je voorbereiden op een wereld die schreewt om vernieuwing.
-				Op onze school zul je leren oplossingen te vinden op problemen die veel impact hebben op de toekomst.
-				Met een onbeperkt aantal inschrijfplekken is er genoeg ruimte voor mensen met nieuwe ideeën. 
+				<h1>Agenda evenementen Hogeschool Hoogeveen</h1>
+				<p> Dit is de officiële roosterpagina van Hogeschool Hoogeveen. 
+                                    Op deze pagina kunt u roostervrije dagen/ vakanties vinden en andere evenementen die ingeroosterd staan bekijken op de agenda van de studenten en leraren.
 				
 				</p>
 			<div class="meerknop">
-				<a href='#'> More </a>
+				<a href='#decontent'> More </a>
 			</div>
 			
 			</div>
@@ -87,6 +85,7 @@
 			
 		
 		</div>
+                <a name="decontent"> </a>
 		<div class='informatiecontent'>
 			<div class="agendadiv">
 			

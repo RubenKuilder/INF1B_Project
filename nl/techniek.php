@@ -82,7 +82,7 @@
                 </p>
 
                 <div class="meerknop">
-                    <a href='#meerinformatie'> More </a>
+                    <a href='#ecocontentbox'> More </a>
                 </div>
 
             </div>
@@ -101,6 +101,7 @@
 
 
                     </p>
+                    <img src="../assets/Images/bouwmensen.png" alt="Werktuigbouwkunde foto">
                 </div>
                 <div class="middelsteBlok">
                     <h2> Lifescience</h2>  
@@ -109,6 +110,7 @@
                         
 
                     </p>
+                    <img src="../assets/Images/chemie.png" alt="Lifesience & foto">
                 </div>
 
                 <div class="rssFeedBox">
