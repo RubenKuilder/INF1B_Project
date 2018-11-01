@@ -70,11 +70,12 @@
 			</div>
 							
 			<div id='textbox'>
-				<h1>Brighten your view at Hogeschool Hoogeveen</h1>
-				<p>Our school is constantly pushing you to develop your talents. Our teachers wil prepare you for a ever changing world. On our school you'll learn to find solutions to problems that have a big impact on the future. With unlimited registrations for students there is enough space for people with innovating ideas.</p>
+				<h1>Agenda events Hogeschool Hoogeveen</h1>
+				<p>This is the official schedule page of Hogeschool Hoogeveen. 
+                                    On this page you can find scheduled days off / holidays and other events that are scheduled on the agenda of students and teachers.</p>
 			
 			<div class="meerknop">
-				<a href='#'> More </a>
+				<a href='#decontent'> More </a>
 			</div>
 			
 			</div>
@@ -83,6 +84,7 @@
 			
 		
 		</div>
+                <a name="decontent"> </a>
 		<div class='informatiecontent'>
 			<div class="agendadiv">
 			

@@ -86,7 +86,7 @@
 				</p>
 			
 			<div class="meerknop">
-				<a href='#meerinformatie'> More </a>
+				<a href="#ecocontentbox"> More </a>
 			</div>
 			
 			</div>
@@ -117,18 +117,16 @@
                     Op deze opleiding doe je veel kennis op, op het gebied van marketing, inkoop, bedrijfsadministratie en economie. 
                     Ook bouw je hier naast kennis aan je persoonlijke en onderzoekende vaardigheden, die je direct kunt toepassen in de praktijk.
                     Je leert hier echt meedenken over de toekomst van een organisatie. 
-          
-               
                 </p>
+                <img src="../assets/Images/blijeMensen.png" alt="eonomie foto">
             </div>
             <div class="middelsteBlok">
                 <h2> Logistiek</h2>  
                 <p> 
                     Als manager in de logistiek heb je afwisselend en verantwoordelijk werk. 
                     Met jouw vakkennis zorg je ervoor dat belangrijke bedrijfsprocessen zoals opslag, vervoer, planning en goederenstroom probleemloos verlopen of ben je verantwoordelijk voor het reilen en zeilen van een productieafdeling.
-         
-               
                 </p>
+                <img src="../assets/Images/blijeLogistiek.png" alt="eonomie foto">
             </div>
                     
             <div class="rssFeedBox">

@@ -91,6 +91,7 @@
 
 
                     </p>
+                    <img src="../assets/Images/bouwmensen.png" alt="mechanical engineering picture">
                 </div>
                 <div class="middelsteBlok">
                     <h2> Lifescience</h2>  
@@ -99,6 +100,7 @@
                         
 
                     </p>
+                    <img src="../assets/Images/chemie.png" alt="Lifesience & Chemestry picture">
                 </div>
 
                 <div class="rssFeedBox">

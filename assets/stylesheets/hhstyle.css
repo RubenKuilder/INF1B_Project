@@ -661,6 +661,12 @@ div .agendadiv {
 }
 
 @media screen and (max-width: 600px) {
+    
+        .middelsteBlok p{
+            width: 230px;
+
+        }
+
 	#mapid{
 		height: 600px;
 		width: 300px;
@@ -786,12 +792,21 @@ div .agendadiv {
 .middelsteBlok {
     width: 28.33%;
     float: left;
-    height: 200px;
+    height: 500px;
     margin-left: 4%;
     background-color: #f2f2f2;
     margin-top: 8%;
     min-width: 272.445px;
+    margin-bottom: 25px;
     /*border: solid 1px #bababa;*/
+}
+.middelsteBlok img{
+    width: 100%;
+    border-radius: 2px;
+    
+}
+.middelsteBlok p{
+    min-height: 170px;
 }
 .rechterBlok {
     width: 28.33%;
