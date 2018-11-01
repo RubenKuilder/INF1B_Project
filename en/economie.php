@@ -112,19 +112,19 @@
             
                             
             <div class="middelsteBlok">
-                <h2> Bedrijfseconomie</h2>
+                <h2> Business Economics</h2>
                 <p> 
-                    Op deze opleiding doe je veel kennis op, op het gebied van marketing, inkoop, bedrijfsadministratie en economie. 
-                    Ook bouw je hier naast kennis aan je persoonlijke en onderzoekende vaardigheden, die je direct kunt toepassen in de praktijk.
-                    Je leert hier echt meedenken over de toekomst van een organisatie. 
+                    This course gives you a lot of knowledge in the field of marketing, purchasing, business administration and economics. 
+                    Here you will also build up your personal and researching skills, which you can immediately apply in practice.
+                    Here you really learn to think along about the future of an organization. 
                 </p>
                 <img src="../assets/Images/blijeMensen.png" alt="eonomie foto">
             </div>
             <div class="middelsteBlok">
-                <h2> Logistiek</h2>  
+                <h2> Logistics</h2>  
                 <p> 
-                    Als manager in de logistiek heb je afwisselend en verantwoordelijk werk. 
-                    Met jouw vakkennis zorg je ervoor dat belangrijke bedrijfsprocessen zoals opslag, vervoer, planning en goederenstroom probleemloos verlopen of ben je verantwoordelijk voor het reilen en zeilen van een productieafdeling.
+                    As a manager in logistics, you have a varied and responsible job. 
+                    With your professional knowledge you ensure that important business processes such as storage, transport, planning and goods flow run smoothly or you are responsible for the ins and outs of a production department.
                 </p>
                 <img src="../assets/Images/blijeLogistiek.png" alt="eonomie foto">
             </div>
@@ -200,7 +200,7 @@
 					</ul>
 				</div>
 				<div id="gegevens">
-				    <p> Adres: Hogeschool Hoogeveen, Hoogestraat 99</p>
+				    <p> Adress: Hogeschool Hoogeveen, Hoogestraat 99</p>
 					<a> <p> 06 25-73 21-34</p> </a>
 					<p> help@hogeschoolhoogeveen.nl</p>
 				</div>	
