@@ -16,7 +16,6 @@
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 		
 		<title>Hogeschool Hoogeveen</title>
 	</head>
