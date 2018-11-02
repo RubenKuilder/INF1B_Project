@@ -494,6 +494,10 @@ a {
     text-align: center;
 }
 
+.meerknop a:hover {
+    background-color: #2f8ad0;
+}
+
 #textbox .meerknop {
 	margin: 40px 0 40px auto;
 	text-align: left;
@@ -805,9 +809,15 @@ div .agendadiv {
     border-radius: 2px;
     
 }
+
 .middelsteBlok p{
+    width: 96%;
+    padding: 2%;
     min-height: 170px;
+    float: left;
 }
+
+
 .rechterBlok {
     width: 28.33%;
     float: left;
@@ -838,8 +848,8 @@ div .agendadiv {
     margin-top: 8%;
     min-width: 290.445px;
     margin-left: 4%;
-
 }
+
 .fontSize {
     font-size: 140%;
     font-weight: 700;
