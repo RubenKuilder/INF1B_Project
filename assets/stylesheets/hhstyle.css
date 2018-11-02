@@ -667,10 +667,26 @@ div .agendadiv {
 @media screen and (max-width: 600px) {
     
         .middelsteBlok p{
-            width: 230px;
-
+            width: 90%;
+            min-height: 170px;
+            float: left;
+            margin: 0 auto;
+            margin-right: 0;
+            margin-left: 0;
         }
-
+        
+        .middelsteBlok h2{
+            width: 90%;
+            float: left;
+            margin: 0 auto;
+            margin-right: 0;
+            margin-left: 2%;
+        }
+	
+        .pinkblue{
+            height: 100vw;
+        }
+        
 	#mapid{
 		height: 600px;
 		width: 300px;
@@ -748,7 +764,9 @@ div .agendadiv {
 	#contactcontent p{
 	font-size: 14px;
 	}
-		
+        
+            
+
 }
 @media screen and (max-width: 720px) {
 
