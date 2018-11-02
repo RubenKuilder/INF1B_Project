@@ -76,12 +76,14 @@
 							
 			<div id='textbox'>
 				<h1> Bedrijfseconomie & Logistiek</h1>
-				<p> Er is een brede basis nodig in marketing en sales.
-                                    Je leert samenwerken, presenteren en pitchen. 
-                                    En je leert omgaan met een wereld die steeds sneller verandert.
-                                    Verder doe je regelmatig onderzoek. 
-                                    Zo kom je erachter wat de klant wil. 
-                                    En hoe je de juiste doelgroep bereikt en je product echt onderscheidend maakt.
+				<p> A broad base is needed in marketing and sales.
+                                    You learn to work together, present and pitch. 
+                                    And you learn to deal with a world that changes faster and faster.
+                                    You also do regular research. 
+                                    This way you will find out what the customer wants. 
+                                    And how you reach the right target group and make your product really distinctive.
+
+Translated with www.DeepL.com/Translator
 				
 				</p>
 			
