@@ -25,10 +25,10 @@
 			<div class="streepje"></div>
 			
 			<div id="languageSelect">
-				<a class="languageBtn active" href="../nl/agenda.php">
+				<a class="languageBtn active" href="agenda.php">
 					NL
 				</a>
-				<a class="languageBtn" href="agenda.php">
+				<a class="languageBtn" href="../en/agenda.php">
 					EN
 				</a>
 			</div>
