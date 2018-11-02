@@ -21,10 +21,10 @@
 			<div class=streepje></div>
 			
 			<div id="languageSelect">
-				<a class="languageBtn" href="algemeneopleidingen.php">
+				<a class="languageBtn" href="../nl/opleidingen.php">
 					NL
 				</a>
-				<a class="languageBtn active" href="algemeneopleidingenEN.php">
+				<a class="languageBtn active" href="opleidingen.php">
 					EN
 				</a>
 			</div>
@@ -32,28 +32,28 @@
 			<div class=streepje></div>
 			
 			<ul class="desktopMenu">
-				<li><a href="#">Agenda</a></li>
-				<li><a href="#">Inschrijven</a></a></li>
-				<li><a href="#">Media</a></a></li>	
+				<li><a href="agenda.php">Agenda</a></li>
+				<li><a href="contactpagina.php">Contact</a></li>
+				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="#">Opleiding 1</a>
-						<a href="#">Opleiding 2</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>			
 			</ul>
 			
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
-				<li>Agenda</li>
-				<li>Inschrijven</li>
-				<li>Media</li>
+				<li><a href="agenda.php">Agenda</a></li>
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
-					<a href="#" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="#">Opleiding 1</a>
-						<a href="#">Opleiding 2</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>
 			</ul>				

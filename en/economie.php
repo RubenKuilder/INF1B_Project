@@ -29,10 +29,10 @@
 			<div class="streepje"></div>
 			
 			<div id="languageSelect">
-				<a class="languageBtn active" href="economie.php">
+				<a class="languageBtn active" href="../nl/economie.php">
 					NL
 				</a>
-				<a class="languageBtn" href="../en/economie.php">
+				<a class="languageBtn" href="economie.php">
 					EN
 				</a>
 			</div>
@@ -41,8 +41,8 @@
 			
 			<ul class="desktopMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contactpagina.php">Contact</a></a></li>
-				<li><a href="gallery.php">Media</a></a></li>	
+				<li><a href="contactpagina.php">Contact</a></li>
+				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -55,8 +55,8 @@
 			<div id="menuBtn">☰</div>
 			<ul class="mobileMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contactpagina.php">Contact</a></li>
-				<li><a href="gallery.php">Media</li>
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
