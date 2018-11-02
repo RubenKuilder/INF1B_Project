@@ -149,9 +149,9 @@
 
 				$('#calendar').fullCalendar({
 				header: {
-					left: 'prev,next today',
-					center: 'title',
-					right: 'month,agendaWeek,agendaDay,listWeek'
+					left: 'title', //left: 'prev,next today',
+					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
+					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
 				  },
 				  defaultDate: '2018-03-12',
 				  editable: true,
