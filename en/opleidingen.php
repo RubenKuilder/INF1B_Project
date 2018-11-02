@@ -92,13 +92,13 @@
 			<a href='hmtlhogeschool1.php'>
 				<div class='pinkblue'> 
 					<img src="../assets/images/economie.png" alt="pin"> 
-					<div class='opleidingtekst'> <h1> Economical</h1> <p>Business economics or Logistics</p> </div>
+					<div class='opleidingtekst'> <h1> Economical</h1> </div>
 				</div>
 			</a>
 			<a href='hmtlhogeschool1.php'>
 				<div class='pinkblue'> 
 					<img src="../assets/images/werktuigbouwkunde.png" alt="pin">  
-					<div class='opleidingtekst'> <h1> Technical</h1> <p> Mechanical engineering or Lifesience & Chemistry </p> </div>
+					<div class='opleidingtekst'> <h1> Technical</h1>  </div>
 				</div>
 			</a>
 		</div>
