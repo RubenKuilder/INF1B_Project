@@ -103,22 +103,18 @@
 			</div>
 			
 			<div class="meerknop">
-				<a href='contact.php'>Sign up</a>
+				<a href='contactpagina.php'>Sign up</a>
 			</div>
 			
 		<div id="opleidingen">
-			<div class='pinkblue'> 
-				<img src="../assets/images/werktuigbouwkunde.png" alt="pin"> 
-				<div class='opleidingtekst'> <p> MECHANICAL ENGINEERING</p> </div>
-			</div>
-			<div class='pinkblue'> 
+			<a class='pinkblue' href="economie.php">
 				<img src="../assets/images/economie.png" alt="pin">  
-				<div class='opleidingtekst'> <p> BUSINESS-ECONOMY & LOGISTICS</p> </div>
-			</div>
-			<div class='pinkblue'> 
+				<div class='opleidingtekst'> <h1> Economical</h1> </div>
+			</a>
+			<a class='pinkblue' href="techniek.php">
 				<img src="../assets/images/lifesience.png" alt="pin">  
-				<div class='opleidingtekst'> <p> LIFESIENCE AND CHEMISTRY</p> </div>
-			</div>
+				<div class='opleidingtekst'> <h1> Technical</h1> </div>
+			</a>
 		</div>
 
 			<div class="clearFix"></div>

@@ -14,7 +14,7 @@
 	<body>
 		<a name="top"></a>	
 		<div id=header> 
-			<a href='hmtlhogeschool.html'> <img src='images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
+			<a href='hmtlhogeschool.html'>  <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
 			
 			<div class=streepje></div>
 			
@@ -89,13 +89,13 @@
 			
 			
 		<div id="opleidingen">
-			<a href='hmtlhogeschool1.php'>
+			<a href='economie.php'>
 				<div class='pinkblue'> 
 					<img src="../assets/images/economie.png" alt="pin"> 
 					<div class='opleidingtekst'> <h1> Economical</h1> </div>
 				</div>
 			</a>
-			<a href='hmtlhogeschool1.php'>
+			<a href='techniek.php'>
 				<div class='pinkblue'> 
 					<img src="../assets/images/werktuigbouwkunde.png" alt="pin">  
 					<div class='opleidingtekst'> <h1> Technical</h1>  </div>

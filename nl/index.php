@@ -117,17 +117,17 @@
 			</div>
 			
 			<div class="meerknop">
-				<a href='contact.php'> Inschrijven </a>
+				<a href='contactpagina.php'> Inschrijven </a>
 			</div>
 			
 		<div id="opleidingen">
 			<a class='pinkblue' href="economie.php"> 
 				<img src="../assets/images/economie.png" alt="pin">  
-				<div class='opleidingtekst'>Economie</div>
+                                <div class='opleidingtekst'><h1> Economie </h1> </div>
 			</a>
 			<a class='pinkblue' href="techniek.php">
 				<img src="../assets/images/lifesience.png" alt="pin">  
-				<div class='opleidingtekst'>Techniek</div>
+                                <div class='opleidingtekst'><h1> Techniek </h1> </div>
 			</a>
 		</div>
 
