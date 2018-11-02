@@ -196,39 +196,38 @@
 		
 
 		<div id="footer">
-			<div id="footercontent">
-			
-				<div class="Links"> 
-					<p>General</p>
-					<ul>
-						<a href="index.php"><li>Home</li></a>
-						<a href="agenda.php"><li>Agenda</li></a>
-						<a href="gallery.php"><li>Media</li></a>
-					</ul>
-				</div>
-				
-				<div class="Links"> 
-					<p>Contact</p>
-					<ul>
-						<a href='contactpagina.php'> <li>Contact </li></a>
-						<a href='contactpagina.php'> <li>Sign up </li></a>
-					</ul>
-				</div>
-				<div class="Links"> 
-					<p>Courses</p>
-					<ul>
-						<a href="opleidingen.php"><li>Courses</li></a>
-						<a href="techniek.php"><li>Tech</li></a>
-						<a href="economie.php"><li>Economics</li></a>
-					</ul>
-				</div>
-				<div id="gegevens">
-				    <p> Adres: Hogeschool Hoogeveen, Hoogestraat 99</p>
-					<a> <p> 06 25-73 21-34</p> </a>
-					<p> help@hogeschoolhoogeveen.nl</p>
-				</div>	
-				
-			</div>
+                    <div id="footercontent">
+                       <div class="Links">
+                          <p>General</p>
+                          <ul>
+                             <li><a href="index.php">Home</a></li>
+                             <li><a href="agenda.php">Agenda</a></li>
+                             <li><a href="gallery.php">Media</a></li>
+                          </ul>
+                       </div>
+                       <div class="Links">
+                          <p>Contact</p>
+                          <ul>
+                             <li><a href='contactpagina.php'>Contact</a></li>
+                             <li><a href='contactpagina.php'>Sign in</a></li>
+                          </ul>
+                       </div>
+                       <div class="Links">
+                          <p>Courses</p>
+                          <ul>
+                             <li><a href="opleidingen.php">Courses</a></li>
+                             <li><a href="techniek.php">Technical</a></li>
+                             <li><a href="economie.php">Economics</a></li>
+                          </ul>
+                       </div>
+                       <div id="gegevens">
+                          <p> Adress: Hogeschool Hoogeveen, Hoogestraat 99</p>
+                          <a>
+                             <p> 06 25-73 21-34</p>
+                          </a>
+                          <p> help@hogeschoolhoogeveen.nl</p>
+                       </div>
+                    </div>
 
 		</div>
 			<div id="backtotop">
