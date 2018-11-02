@@ -29,10 +29,10 @@
 			<div class="streepje"></div>
 			
 			<div id="languageSelect">
-				<a class="languageBtn active" href="../nl/economie.php">
+				<a class="languageBtn" href="../nl/economie.php">
 					NL
 				</a>
-				<a class="languageBtn" href="economie.php">
+				<a class="languageBtn active" href="economie.php">
 					EN
 				</a>
 			</div>

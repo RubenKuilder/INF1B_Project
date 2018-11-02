@@ -21,10 +21,10 @@
             <div class=streepje></div>
 
             <div id="languageSelect">
-                <a class="languageBtn active" href="../nl/techniek.php">
+                <a class="languageBtn" href="../nl/techniek.php">
                     NL
                 </a>
-                <a class="languageBtn" href="techniek.php">
+                <a class="languageBtn active" href="techniek.php">
                     EN
                 </a>
             </div>
