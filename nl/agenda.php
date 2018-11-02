@@ -164,7 +164,13 @@
 					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
 					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
 				  },
-				  defaultDate: '2018-03-12',
+				defaultDate:
+                                        
+                                '<?php
+                                        $t=time();
+                                        echo(date("Y-m-d",$t));
+                                ?>',
+                                            
 				  editable: true,
 				  navLinks: true, // can click day/week names to navigate views
 				  eventLimit: true, // allow "more" link when too many events

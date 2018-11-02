@@ -44,10 +44,10 @@
 				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Educations</a>
+					<a href="opleidingen.php" class="dropbtn">Courses</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Technic</a>
-						<a href="economie.php">Economy</a>
+						<a href="techniek.php">Technical</a>
+						<a href="economie.php">Economical</a>
 					</div>
 				</li>			
 			</ul>
@@ -58,10 +58,10 @@
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Courses</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Techniek</a>
-						<a href="economie.php">Economie</a>
+						<a href="techniek.php">Technical</a>
+						<a href="economie.php">Economical</a>
 					</div>
 				</li>
 			</ul>				
