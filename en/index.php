@@ -12,7 +12,7 @@
 	</head>
 	
 	<body>
-		<a name="top"></a>	
+		<a id="top"></a>	
 		<div id="header"> 
 			<a href='index.php'> 
 			<img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> 
@@ -33,8 +33,8 @@
 			
 			<ul class="desktopMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contactpagina.php">Contact</a></a></li>
-				<li><a href="gallery.php">Media</a></a></li>	
+				<li><a href="contactpagina.php">Contact</a></li>
+				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -48,7 +48,7 @@
 			<ul class="mobileMenu">
 				<li><a href="agenda.php">Agenda</a></li>
 				<li><a href="contact.php">Contact</a></li>
-				<li><a href="gallery.php">Media</li>
+				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -80,7 +80,7 @@
 		
 		</div>
 		<div class='informatiecontent'>
-			<a name='meerinformatie' > <h1>Hogeschool Hoogeveen</h1> </a>
+			<a id='meerinformatie' > <h1>Hogeschool Hoogeveen</h1> </a>
 			<p>Our school is very young and currently has 100 students. But we are growing very quickly and have lots of space left. We offer two courses. Technical: lifesience, chemistry and mechanical engineering. Economics: business-economy & logistics. All of our courses are also given in English.</p>
 		
 			<div id="pinbox">
@@ -130,25 +130,25 @@
 				<div class="Links"> 
 					<p>General</p>
 					<ul>
-						<a href="index.php"><li>Home</li></a>
-						<a href="agenda.php"><li>Agenda</li></a>
-						<a href="gallery.php"><li>Media</li></a>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="agenda.php">Agenda</a></li>
+						<li><a href="gallery.php">Media</a></li>
 					</ul>
 				</div>
 				
 				<div class="Links"> 
 					<p>Contact</p>
 					<ul>
-						<a href='contactpagina.php'> <li>Contact </li></a>
-						<a href='contactpagina.php'> <li>Sign up </li></a>
+						<li><a href='contactpagina.php'>Contact</a></li>
+						<li><a href='contactpagina.php'>Sign up</a></li>
 					</ul>
 				</div>
 				<div class="Links"> 
 					<p>Courses</p>
 					<ul>
-						<a href="opleidingen.php"><li>Courses</li></a>
-						<a href="techniek.php"><li>Tech</li></a>
-						<a href="economie.php"><li>Economics</li></a>
+						<li><a href="opleidingen.php">Courses</a></li>
+						<li><a href="techniek.php">Tech</a></li>
+						<li><a href="economie.php">Economics</a></li>
 					</ul>
 				</div>
 				<div id="gegevens">
