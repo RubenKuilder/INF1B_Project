@@ -160,9 +160,9 @@
 
 				$('#calendar').fullCalendar({
 				header: {
-					left: 'title', //left: 'prev,next today',
-					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
-					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
+				    left: 'title', //left: 'prev,next today',
+                                    center: '', //center: 'title',
+                                    right: 'prev, agendaWeek, agendaDay, month ,listWeek, next today' //'month,agendaWeek,agendaDay,listWeek'
 				  },
 				defaultDate:
                                         

@@ -146,43 +146,42 @@
 				<a href='#top'> <p> Back to top</p> </a>
 			</div>
 
+                    <script>
 
-		<script>
 
+                            $(document).ready(function() {
+                                    $('#menuBtn').click(function(){
+                                            $('.mobileMenu').toggleClass('active');
+                                    });
 
-			$(document).ready(function() {
-				$('#menuBtn').click(function(){
-					$('.mobileMenu').toggleClass('active');
-				});
+                                    $('#calendar').fullCalendar({
+                                    header: {
+                                            left: 'title', //left: 'prev,next today',
+                                            center: '', //center: 'title',
+                                            right: 'prev, agendaWeek, agendaDay, month ,listWeek, next today' //'month,agendaWeek,agendaDay,listWeek'
+                                      },
+                                    defaultDate:
 
-				$('#calendar').fullCalendar({
-				header: {
-					left: 'title', //left: 'prev,next today',
-					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
-					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
-				  },
-				defaultDate:
-                                        
-                                '<?php
-                                        $t=time();
-                                        echo(date("Y-m-d",$t));
-                                ?>',
-                                            
-				  editable: true,
-				  navLinks: true, // can click day/week names to navigate views
-				  eventLimit: true, // allow "more" link when too many events
-				  events: {
-					url: '../assets/php/get-events.php',
-					error: function() {
-					  $('#script-warning').show();
-					}
-				  },
-				  loading: function(bool) {
-					$('#loading').toggle(bool);
-				  }
-				});
+                                    '<?php
+                                            $t=time();
+                                            echo(date("Y-m-d",$t));
+                                    ?>',
 
-			});
-		</script>
+                                      editable: true,
+                                      navLinks: true, // can click day/week names to navigate views
+                                      eventLimit: true, // allow "more" link when too many events
+                                      events: {
+                                            url: '../assets/php/get-events.php',
+                                            error: function() {
+                                              $('#script-warning').show();
+                                            }
+                                      },
+                                      loading: function(bool) {
+                                            $('#loading').toggle(bool);
+                                      }
+                                    });
+
+                            });
+                    </script>
 	</body>
 </html>

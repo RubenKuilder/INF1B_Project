@@ -69,11 +69,11 @@
 
 		<div id="content">
 			
-			<div id='achtergrondcontent'>
-				<div id='backgroundimage'> </div>
+			<div id="achtergrondcontent">
+				<div id="backgroundimage"> </div>
 			</div>
 							
-			<div id='textbox'>
+			<div id="textbox">
 				<h1>Brighten your view at Hogeschool Hoogeveen</h1>
 				<p>Our school is constantly pushing you to develop your talents. Our teachers wil prepare you for a ever changing world. On our school you'll learn to find solutions to problems that have a big impact on the future. With unlimited registrations for students there is enough space for people with innovating ideas.</p>
 			
@@ -87,22 +87,22 @@
 			
 		
 		</div>
-		<div class='informatiecontent'>
-			<a id='meerinformatie' > <h1>Hogeschool Hoogeveen</h1> </a>
+		<div class="informatiecontent">
+			<a id="meerinformatie" > <h1>Hogeschool Hoogeveen</h1> </a>
 			<p>Our school is very young and currently has 100 students. But we are growing very quickly and have lots of space left. We offer two courses. Technical: lifesience, chemistry and mechanical engineering. Economics: business-economy & logistics. All of our courses are also given in English.</p>
 		
 			<div id="pinbox">
-				<div class='punten'>
+				<div class="punten">
 					<img src="../assets/images/pin.png" alt="pin">
 					<h1> Almost no dropouts</h1>
 					<p> On our school there are little dropouts</p>
 				</div>
-				<div class='punten'>
+				<div class="punten">
 					<img src="../assets/images/pin.png" alt="pin">
 					<h1>The best courses</h1>
 					<p> We have the best courses on our school</p>
 				</div>
-				<div class='punten'>
+				<div class="punten">
 					<img src="../assets/images/pin.png" alt="pin">
 					<h1> International</h1>
 					<p>All our courses are also given in Engelish</p>
@@ -115,13 +115,13 @@
 			</div>
 			
 		<div id="opleidingen">
-			<a class='pinkblue' href="economie.php">
+			<a class="pinkblue" href="economie.php">
 				<img src="../assets/images/economie.png" alt="pin">  
 				<div class='opleidingtekst'> <h1> Economical</h1> </div>
 			</a>
-			<a class='pinkblue' href="techniek.php">
+			<a class="pinkblue" href="techniek.php">
 				<img src="../assets/images/lifesience.png" alt="pin">  
-				<div class='opleidingtekst'> <h1> Technical</h1> </div>
+				<div class="opleidingtekst"> <h1> Technical</h1> </div>
 			</a>
 		</div>
 

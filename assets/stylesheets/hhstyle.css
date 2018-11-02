@@ -660,6 +660,7 @@ div .agendadiv {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 10px;
+    margin-bottom: 50px;
   }
 /*het gedeelte hierboven is voor de agenda*/
 
@@ -688,8 +689,8 @@ div .agendadiv {
     
 	.middelsteBlok p{
 	    width: 90%;
-	    min-height: 170px;
-	    float: left;
+            min-height: 170px;
+            float: left;
 	    margin: 0 auto;
 	    margin-right: 0;
 	    margin-left: 0;

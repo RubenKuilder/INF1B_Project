@@ -21,12 +21,12 @@
 
     <body>
         <a id="top"></a>	
-        <div id=header> 
+        <div id="header"> 
             <a href='index.php'> 
             <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> 
             </a>
 
-            <div class=streepje></div>
+            <div class="streepje"></div>
 
             <div id="languageSelect">
                 <a class="languageBtn" href="../nl/techniek.php">
@@ -37,7 +37,7 @@
                 </a>
             </div>
 
-            <div class=streepje></div>
+            <div class="streepje"></div>
 
             <ul class="desktopMenu">
                     <li><a href="agenda.php">Agenda</a></li>
@@ -66,7 +66,7 @@
                     </li>
             </ul>				
         </div>
-        <div id=content>
+        <div id="content">
             <div class='bollen'> 
             </div>
 
@@ -156,7 +156,7 @@
         </div>
 
 
-        <div id=footer>
+        <div id="footer">
             <div id="footercontent">
                <div class="Links">
                   <p>General</p>
@@ -191,7 +191,7 @@
             </div>
 
         </div>
-        <div id=backtotop>
+        <div id="backtotop">
             <a href='#top'> <p> Back to top</p> </a>
         </div>
 
