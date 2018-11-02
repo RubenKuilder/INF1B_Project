@@ -12,6 +12,15 @@
 		<link href='../assets/stylesheets/fullcalendar.print.min.css' rel='stylesheet' media='print' />
 		<script src='../assets/scripts/moment.min.js'></script>
 		<script src='../assets/scripts/fullcalendar.min.js'></script>
+		<!--favicon files begin-->
+		<link rel="apple-touch-icon" sizes="180x180" href="../faviconfiles/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../faviconfiles/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../faviconfiles/favicon-16x16.png">
+		<link rel="manifest" href="../faviconfiles/site.webmanifest">
+		<link rel="mask-icon" href="../faviconfiles/safari-pinned-tab.svg" color="#4ac0ff">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<!--favicon files end-->
 		<title> Hogeschool Hoogeveen</title>
 	</head>
 	
@@ -155,7 +164,7 @@
 					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
 					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
 				  },
-				  defaultDate: '2018-11-09',
+				  defaultDate: '2018-03-12',
 				  editable: true,
 				  navLinks: true, // can click day/week names to navigate views
 				  eventLimit: true, // allow "more" link when too many events

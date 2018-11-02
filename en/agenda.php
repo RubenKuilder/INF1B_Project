@@ -4,7 +4,15 @@
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
 		<link rel='stylesheet' href='hhstyle.css' type='text/css'/>
-
+		<!--favicon files begin-->
+		<link rel="apple-touch-icon" sizes="180x180" href="../faviconfiles/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../faviconfiles/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../faviconfiles/favicon-16x16.png">
+		<link rel="manifest" href="../faviconfiles/site.webmanifest">
+		<link rel="mask-icon" href="../faviconfiles/safari-pinned-tab.svg" color="#4ac0ff">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<!--favicon files end-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
 		<link href='../assets/stylesheets/fullcalendar.min.css' rel='stylesheet' />
@@ -16,7 +24,7 @@
 	</head>
 	
 	<body>
-		<a name="top"></a>	
+		<a id="top"></a>	
 		<div id="header"> 
 			<a href='index.php'> 
 			<img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> 
@@ -40,10 +48,10 @@
 				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Courses</a>
+					<a href="opleidingen.php" class="dropbtn">Educations</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Technical</a>
-						<a href="economie.php">Economical</a>
+						<a href="techniek.php">Technic</a>
+						<a href="economie.php">Economy</a>
 					</div>
 				</li>			
 			</ul>
@@ -54,10 +62,10 @@
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Courses</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Technical</a>
-						<a href="economie.php">Economical</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>
 			</ul>				
@@ -84,7 +92,7 @@
 			
 		
 		</div>
-                <a name="decontent"> </a>
+                <a id="decontent"> </a>
 		<div class='informatiecontent'>
 			<div class="agendadiv">
 			
@@ -153,7 +161,7 @@
 					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
 					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
 				  },
-				  defaultDate: '2018-11-09',
+				  defaultDate: '2018-03-12',
 				  editable: true,
 				  navLinks: true, // can click day/week names to navigate views
 				  eventLimit: true, // allow "more" link when too many events

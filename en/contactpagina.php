@@ -4,10 +4,17 @@
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
-
+		<!--favicon files begin-->
+		<link rel="apple-touch-icon" sizes="180x180" href="../faviconfiles/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../faviconfiles/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../faviconfiles/favicon-16x16.png">
+		<link rel="manifest" href="../faviconfiles/site.webmanifest">
+		<link rel="mask-icon" href="../faviconfiles/safari-pinned-tab.svg" color="#4ac0ff">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#ffffff">
+		<!--favicon files end-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
-		<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
 		<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
 		
@@ -16,7 +23,7 @@
 	</head>
 	
 	<body>
-		<a name="top"></a>	
+		<a id="top"></a>	
 		<div id="header"> 
 			<a href='index.php'> 
 			<img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> 
@@ -40,10 +47,10 @@
 				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Courses</a>
+					<a href="opleidingen.php" class="dropbtn">Educations</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Technical</a>
-						<a href="economie.php">Economical</a>
+						<a href="techniek.php">Technic</a>
+						<a href="economie.php">Economy</a>
 					</div>
 				</li>			
 			</ul>
@@ -54,10 +61,10 @@
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Courses</a>
+					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Technical</a>
-						<a href="economie.php">Economical</a>
+						<a href="techniek.php">Techniek</a>
+						<a href="economie.php">Economie</a>
 					</div>
 				</li>
 			</ul>					
@@ -67,8 +74,7 @@
                     <div id='contactcontent'>
 				<h1> Contact</h1>
 				<p>Hogeschool Hoogeveen has one location. </p>
-				<p>
-					<div id="mapid" style=></div>
+					<div id="mapid"></div>
 					
 						<script>
 
@@ -88,8 +94,6 @@
 							L.marker([52.7296723, 6.4570349], {icon: Marker}).addTo(mymap);							
 
 						</script>
-
-				</p>
                             <div class='formuliercontent'>
 				<form class='formulier' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 					<h2>Register for education</h2><p></p>
@@ -104,9 +108,9 @@
 					<input type="text" name="email" id="email" placeholder="name@example.com"><p></p>
 					
 					Gender:
-					<input type="radio" name="geslacht" value="Man" id="radiogroup"> Man
-					<input type="radio" name="geslacht" value="Vrouw" id="radiogroup"> Woman
-					<input type="radio" name="geslacht" value="Overig" id="radiogroup"> Other
+					<input type="radio" name="geslacht" value="Man"> Man
+					<input type="radio" name="geslacht" value="Vrouw"> Woman
+					<input type="radio" name="geslacht" value="Overig"> Other
 					<p></p>
 					
 					Phone Number:
@@ -166,7 +170,7 @@
 
                                 <h2> Facilities:</h2>
 				<p> Hogeschool Hoogeveen features a canteen, a lab, a desginstudio and multiple study- and classrooms.
-                                These are visited often by students.
+                                These will often be visited by students.
                                 </p>
                                 
 				<h2> Parking & public transport:</h2>

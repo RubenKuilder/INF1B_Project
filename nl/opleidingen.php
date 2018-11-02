@@ -3,15 +3,15 @@
 	<head>
 		<meta charset='UTF-8'>
 		<meta name="viewport" content="width=device-width">
-
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4ac0ff">
+	<!--favicon files begin-->
+		<link rel="apple-touch-icon" sizes="180x180" href="../faviconfiles/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../faviconfiles/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../faviconfiles/favicon-16x16.png">
+		<link rel="manifest" href="../faviconfiles/site.webmanifest">
+		<link rel="mask-icon" href="../faviconfiles/safari-pinned-tab.svg" color="#4ac0ff">
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="theme-color" content="#ffffff">
-
+		<!--favicon files end-->
 		<link rel='stylesheet' href='../assets/stylesheets/hhstyle.css' type='text/css'/>
 
 
