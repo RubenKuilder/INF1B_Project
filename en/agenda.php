@@ -40,10 +40,10 @@
 				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Courses</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Techniek</a>
-						<a href="economie.php">Economie</a>
+						<a href="techniek.php">Technical</a>
+						<a href="economie.php">Economical</a>
 					</div>
 				</li>			
 			</ul>
@@ -54,10 +54,10 @@
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Courses</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Techniek</a>
-						<a href="economie.php">Economie</a>
+						<a href="techniek.php">Technical</a>
+						<a href="economie.php">Economical</a>
 					</div>
 				</li>
 			</ul>				
@@ -153,7 +153,7 @@
 					center: 'month,agendaWeek,agendaDay,listWeek', //center: 'title',
 					right: 'prev,next today' //'month,agendaWeek,agendaDay,listWeek'
 				  },
-				  defaultDate: '2018-03-12',
+				  defaultDate: '2018-11-09',
 				  editable: true,
 				  navLinks: true, // can click day/week names to navigate views
 				  eventLimit: true, // allow "more" link when too many events

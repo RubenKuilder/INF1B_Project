@@ -40,10 +40,10 @@
 				<li><a href="contactpagina.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Courses</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Techniek</a>
-						<a href="economie.php">Economie</a>
+						<a href="techniek.php">Technical</a>
+						<a href="economie.php">Economical</a>
 					</div>
 				</li>			
 			</ul>
@@ -54,10 +54,10 @@
 				<li><a href="contact.php">Contact</a></li>
 				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
-					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
+					<a href="opleidingen.php" class="dropbtn">Courses</a>
 					<div class="dropdown-content">
-						<a href="techniek.php">Techniek</a>
-						<a href="economie.php">Economie</a>
+						<a href="techniek.php">Technical</a>
+						<a href="economie.php">Economical</a>
 					</div>
 				</li>
 			</ul>					
@@ -166,7 +166,7 @@
 
                                 <h2> Facilities:</h2>
 				<p> Hogeschool Hoogeveen features a canteen, a lab, a desginstudio and multiple study- and classrooms.
-                                Deze zullen vaak bezocht worden door studenten.
+                                These are visited often by students.
                                 </p>
                                 
 				<h2> Parking & public transport:</h2>
