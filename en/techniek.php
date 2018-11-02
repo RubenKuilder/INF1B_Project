@@ -66,8 +66,8 @@
             </div>
 
             <div id='textbox'>
-                <h1> Werktuigbouwkunde & Lifescience</h1>
-                <p> Bij de hbo-studies Werktuigbouwkunde en Lifescience leer je combinaties te maken om oplossingen te vinden voor je klanten. Je moet dus creatief zijn en klantgericht. Als werktuigbouwkundige en lifescientist is geen dag hetzelfde!​
+                <h1> Mechanical Engineering & Lifescience</h1>
+                <p> During the Mechanical Engineering and Lifescience studies, you learn to make combinations to find solutions for your customers. So you have to be creative and customer-oriented. As a mechanical and life sciences specialist, no day is the same!
 
                 </p>
 
@@ -86,9 +86,9 @@
 
 
                 <div class="middelsteBlok">
-                    <h2> Werktuigbouwkunde</h2>
+                    <h2> Mechanical engineering</h2>
                     <p> 
-                        Ben jij een echte doener? Ben jij degene die technische problemen creatief en effectief weet op te lossen? Heb je techniek altijd al interessant gevonden en ben je niet bang te experimenteren? Dan is de opleiding Werktuigbouwkunde iets voor jou!
+                        Are you a real do-er? Are you the one who knows how to solve technical problems creatively and effectively? Have you always found technology interesting and are you not afraid to experiment? Then the Mechanical Engineering course is for you!
 
 
                     </p>
@@ -97,7 +97,7 @@
                 <div class="middelsteBlok">
                     <h2> Lifescience</h2>  
                     <p> 
-                        De naam van deze studie klinkt technischer dan de praktijk: met Lifescience leer je mét mensen bezig te zijn om vóór mensen onderzoek te doen. Als Lifescientist werk je in laboratoria in groepsverband aan onderzoeken waar de mens - letterlijk en figuurlijk - beter van wordt. Zo ontwikkel je nieuwe medicijnen en zoek je naar de oorzaken van ziekten. Of ben je betrokken bij de verbetering van oogsten. En met de richting Forensic Sciences ontdek je de wereld achter CSI! Ontdek de opleiding Lifescience!
+                        The name of this study sounds more technical than practice: with Lifescience you learn to work with people to do research for people. As a Lifescientist, you work in laboratories in groups on research that - literally and figuratively - benefits people. You develop new medicines and look for the causes of diseases. Or are you involved in improving harvests? And with the course Forensic Sciences you discover the world behind CSI! Discover the Lifescience programme!
                         
 
                     </p>
