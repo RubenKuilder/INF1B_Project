@@ -23,7 +23,7 @@
 	</head>
 	
 	<body>
-		<a name="top"></a>	
+		<a id="top"></a>	
 		<div id="header"> 
 			<a href='index.php'> <img src='../assets/images/logohh.png' alt='Hogeschool Hoogeveen'> </a>
 			
@@ -42,8 +42,8 @@
 			
 			<ul class="desktopMenu">
 				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="contactpagina.php">Contact</a></a></li>
-				<li><a href="gallery.php">Media</a></a></li>	
+				<li><a href="contactpagina.php">Contact</a></li>
+				<li><a href="gallery.php">Media</a></li>	
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -57,7 +57,7 @@
 			<ul class="mobileMenu">
 				<li><a href="agenda.php">Agenda</a></li>
 				<li><a href="contactpagina.php">Contact</a></li>
-				<li><a href="gallery.php">Media</li>
+				<li><a href="gallery.php">Media</a></li>
 				<li class="dropdown">
 					<a href="opleidingen.php" class="dropbtn">Opleidingen</a>
 					<div class="dropdown-content">
@@ -65,7 +65,7 @@
 						<a href="economie.php">Economie</a>
 					</div>
 				</li>
-			</ul>				
+			</ul>
 		</div>
 
 		<div id=content>
@@ -73,8 +73,7 @@
 			<div id='contactcontent'>
 				<h1> Contact</h1>
 				<p>Hogeschool Hoogeveen heeft één locatie. </p>
-				<p>
-					<div id="mapid" style=></div>
+					<div id="mapid"></div>
 					
 						<script>
 
@@ -94,8 +93,6 @@
 							L.marker([52.7296723, 6.4570349], {icon: Marker}).addTo(mymap);							
 
 						</script>
-
-				</p>
 				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 					<h2>Inschrijven voor opleiding</h2><p></p>
 					<h3>Persoonlijke gegevens</h3>
@@ -109,9 +106,9 @@
 					<input type="text" name="email" id="email" placeholder="naam@example.com"><p></p>
 					
 					Geslacht:
-					<input type="radio" name="geslacht" value="Man" id="radiogroup"> Man
-					<input type="radio" name="geslacht" value="Vrouw" id="radiogroup"> Vrouw
-					<input type="radio" name="geslacht" value="Overig" id="radiogroup"> Overig
+					<input type="radio" name="geslacht" value="Man"> Man
+					<input type="radio" name="geslacht" value="Vrouw"> Vrouw
+					<input type="radio" name="geslacht" value="Overig"> Overig
 					<p></p>
 					
 					Telefoonnummer:
@@ -196,25 +193,25 @@
 				<div class="Links"> 
 					<p>Algemeen</p>
 					<ul>
-						<a href="index.php"><li>Home</li></a>
-						<a href="agenda.php"><li>Agenda</li></a>
-						<a href="gallery.php"><li>Media</li></a>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="agenda.php">Agenda</a></li>
+						<li><a href="gallery.php">Media</a></li>
 					</ul>
 				</div>
 				
 				<div class="Links"> 
 					<p>Contact</p>
 					<ul>
-						<a href='contactpagina.php'> <li>Contact </li></a>
-						<a href='contactpagina.php'> <li>Inschrijven </li></a>
+						<li><a href='contactpagina.php'>Contact</a></li>
+						<li><a href='contactpagina.php'>Inschrijven</a></li>
 					</ul>
 				</div>
 				<div class="Links"> 
 					<p>Opleidingen</p>
 					<ul>
-						<a href="opleidingen.php"><li>Opleidingen</li></a>
-						<a href="techniek.php"><li>Techniek</li></a>
-						<a href="economie.php"><li>Economie</li></a>
+						<li><a href="opleidingen.php">Opleidingen</a></li>
+						<li><a href="techniek.php">Techniek</a></li>
+						<li><a href="economie.php">Economie</a></li>
 					</ul>
 				</div>
 				<div id="gegevens">
