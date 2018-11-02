@@ -75,7 +75,7 @@
 			</div>
 							
 			<div id='textbox'>
-				<h1> Bedrijfseconomie & Logistiek</h1>
+				<h1> Business Economics & Logistics</h1>
 				<p> A broad base is needed in marketing and sales.
                                     You learn to work together, present and pitch. 
                                     And you learn to deal with a world that changes faster and faster.
