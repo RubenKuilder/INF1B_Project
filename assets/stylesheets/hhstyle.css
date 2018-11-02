@@ -712,13 +712,27 @@ div .agendadiv {
 		width: 300px;
 	}
 	
+        .formulier {
+            margin-left: 20px;
+            margin-right: 10px;
+        }
 	#contactcontent{
 		width: 100%;
-		height: 1300px;
+		height: 1950px;
 		margin-left: 0%;
 		margin-right: 0%;
+                margin-bottom: 0;
+                float: left;
 	}
 	
+       .formuliercontent{
+            width:95%;
+            margin-left: 0%;
+            margin-right: 5%;
+            margin-bottom: 0;
+            float: left;
+	}
+        
 	#contactcontent h1, p, h2{
 		margin-left: 20px;
 	}

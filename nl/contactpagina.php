@@ -68,7 +68,6 @@
 			</ul>
 		</div>
 
-		<div id=content>
 							
 			<div id='contactcontent'>
 				<h1> Contact</h1>
@@ -78,7 +77,7 @@
 						<script>
 
 							
-							var mymap = L.map('mapid').setView([52.7267712,6.465842], 14);				
+							var mymap = L.map('mapid').setView([52.7296723, 6.4570349], 14);				
 							L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 								maxZoom: 18,
 								id: 'mapbox.streets'
@@ -92,8 +91,10 @@
 							
 							L.marker([52.7296723, 6.4570349], {icon: Marker}).addTo(mymap);							
 
-						</script>
-				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+				
+                                               </script>
+                            <div class='formuliercontent'>
+				<form class='formulier' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 					<h2>Inschrijven voor opleiding</h2><p></p>
 					<h3>Persoonlijke gegevens</h3>
 					
@@ -165,11 +166,19 @@
 				<p> Postbus 6969 </p>
 				<p> 7912 AB Hoogeveen</p>
 
+                                <h2> Faciliteiten:</h2>
+				<p> Hogeschool Hoogeveen beschikt over een kantine, een labaratorium, een ontwerpstudio en meerdere studieruimtes.
+                                Deze zullen vaak bezocht worden door studenten.
+                                </p>
+                                
 				<h2> Parkeren & OV:</h2>
 				<p> Op de campus kunnen studenten en personeel hun voertuig gratis parkeren met hun studenten pas. 
 				Overige bezoekers moeten een tarief betalen van 2 euro per uur. De hogeschool ligt op loopafstand van treinstation Hogeveen. Naar deze locatie rijden veel bussen. 
 				Hierdoor is de campus erg toegankelijk voor studenten die op lange afstand wonen.</p>	
-				
+
+                                <h2> Inloggen rooster:</h2>	
+				<p> Voor het bekijken van het rooster maakt Hogeschool Hoogeveen gebruik van <a href='https://twitter.com/?lang=nl'> Magister.</a> </p>
+                                
 				<h2> Sociale media:</h2>	
 				<p> Volg ons op <a href='https://twitter.com/?lang=nl'> Twitter </a> </p>
 				<p> Like ons op <a href='https://nl-nl.facebook.com/'> Facebook </a> </p>
@@ -181,11 +190,10 @@
 				<p> help@hogeschoolhoogeveen.nl</p>
 				
 			</div>
-
+                    </div>
 			<div class="clearFix"></div>
 			
 		
-		</div>
 
 		<div id="footer">
 			<div id="footercontent">

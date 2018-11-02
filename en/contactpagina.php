@@ -63,9 +63,8 @@
 			</ul>					
 		</div>
 
-		<div id="content">
 							
-			<div id='contactcontent'>
+                    <div id='contactcontent'>
 				<h1> Contact</h1>
 				<p>Hogeschool Hoogeveen has one location. </p>
 				<p>
@@ -74,7 +73,7 @@
 						<script>
 
 							
-							var mymap = L.map('mapid').setView([52.7267712,6.465842], 14);				
+							var mymap = L.map('mapid').setView([52.7296723, 6.4570349], 14);				
 							L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 								maxZoom: 18,
 								id: 'mapbox.streets'
@@ -91,8 +90,8 @@
 						</script>
 
 				</p>
-				
-								<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                            <div class='formuliercontent'>
+				<form class='formulier' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 					<h2>Register for education</h2><p></p>
 					<h3>Personal information</h3>
 					
@@ -165,6 +164,11 @@
 				<p> mailbox 6969 </p>
 				<p> 7912 AB Hoogeveen</p>
 
+                                <h2> Facilities:</h2>
+				<p> Hogeschool Hoogeveen features a canteen, a lab, a desginstudio and multiple study- and classrooms.
+                                Deze zullen vaak bezocht worden door studenten.
+                                </p>
+                                
 				<h2> Parking & public transport:</h2>
 				<p> Students and staff can park their vehicles at the campus for free. 
 				Other visitors have to pay 2 euros per hour. 
@@ -172,7 +176,10 @@
 				where a lot of busses drive by.
 				This makes the campus accessible for students who live far away from the school.</p>	
 				
-				<h2> Sociale media:</h2>	
+                                <h2> Schedule Log-in :</h2>	
+				<p> At Hogeschool Hoogeveen you use <a href='https://twitter.com/?lang=nl'> Magister</a> to view your schedule.</p>
+                                
+				<h2> Social media:</h2>	
 				<p> Follow us on<a href='https://twitter.com/?lang=nl'> Twitter </a> </p>
 				<p> Like our <a href='https://nl-nl.facebook.com/'> Facebook-page </a> </p>
 				<p> Subscribe to our<a href='https://www.youtube.com/'> Youtube-channel </a> </p>
@@ -183,11 +190,10 @@
 				<p> help@hogeschoolhoogeveen.nl</p>
 				
 			</div>
-
+                    </div>
 			<div class="clearFix"></div>
 			
 		
-		</div>
 
 		<div id="footer">
 			<div id="footercontent">
