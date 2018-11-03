@@ -226,8 +226,9 @@ a[data-goto]:hover {
 }
 
 .fc .fc-row {
-    border-style: solid;
-    border-width: 0
+    border-style: none;
+    border-width: 0;
+    border-color: grey;
 }
 
 .fc-row table {
@@ -437,7 +438,8 @@ a[data-goto]:hover {
 
 .fc-day-grid-event {
     margin: 1px 2px 0;
-    padding: 0 1px
+    padding: 0 1px;
+    color: white;
 }
 
 tr:first-child>td>.fc-day-grid-event {
@@ -458,11 +460,11 @@ tr:first-child>td>.fc-day-grid-event {
 
 .fc-day-grid-event .fc-content {
     white-space: nowrap;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .fc-day-grid-event .fc-time {
-    font-weight: 700
+    font-weight: 700;
 }
 
 .fc-ltr .fc-day-grid-event.fc-allow-mouse-resize .fc-start-resizer,
@@ -650,7 +652,7 @@ a.fc-more:hover {
 .fc-bootstrap3 .fc-time-grid .fc-slats table,
 .fc-bootstrap4 .fc-time-grid .fc-slats table,
 .fc-time-grid .fc-slats .ui-widget-content {
-    background: 0 0
+    background-color: grey;
 }
 
 .fc-popover>.ui-widget-header+.ui-widget-content {
@@ -772,7 +774,7 @@ a.fc-more:hover {
 }
 
 .fc-day-top.fc-other-month {
-    opacity: .3
+    opacity: .3;
 }
 
 .fc-basic-view .fc-day-number,
@@ -1036,19 +1038,16 @@ a.fc-more:hover {
 
 .fc-time-grid-event.fc-selected .fc-resizer {
     border-radius: 5px;
-    border-width: 1px;
+    border-width: 0px;
     width: 8px;
     height: 8px;
-    border-style: solid;
-    border-color: inherit;
-    background: #fff;
+    background-color: grey;
     left: 50%;
     margin-left: -5px;
     bottom: -5px
 }
 
 .fc-time-grid .fc-now-indicator-line {
-    border-top-width: 1px;
     left: 0;
     right: 0
 }
@@ -1213,7 +1212,7 @@ a.fc-more:hover {
         display: none;
     }
     
-    .fc-agendaDay-button{
+    .fc-today-button{
         display: none;
     }
     

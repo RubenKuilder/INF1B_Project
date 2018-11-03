@@ -635,6 +635,7 @@ div .agendadiv {
     padding: 0;
     font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
     font-size: 14px;
+    float: left;
   }
 
   #script-warning {
@@ -686,7 +687,6 @@ div .agendadiv {
 }
 
 @media screen and (max-width: 600px) {
-    
 	.middelsteBlok p{
 	    width: 90%;
             min-height: 170px;
