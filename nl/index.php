@@ -52,7 +52,7 @@
          <div id="menuBtn">☰</div>
          <ul class="mobileMenu">
             <li><a href="agenda.php">Agenda</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="contactpagina.php">Contact</a></li>
             <li><a href="gallery.php">Media</a></li>
             <li class="dropdown">
                <a href="opleidingen.php" class="dropbtn">Opleidingen</a>
