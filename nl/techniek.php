@@ -64,7 +64,7 @@
             </li>
          </ul>
 		</div>
-        <div id=content>
+        <div id="content">
             <div class='bollen'> 
             </div>
 
@@ -80,7 +80,7 @@
                 </p>
 
                 <div class="meerknop">
-                    <a href='#ecocontentbox'> More </a>
+                    <a href='#meerinformatie'> More </a>
                 </div>
 
             </div>
@@ -89,7 +89,7 @@
 
         </div>
         <div class="informatiecontent">
-		<a id='#meerinformatie'> </a>
+		<a id='meerinformatie' >
             <div id="ecocontentbox">       
 
 

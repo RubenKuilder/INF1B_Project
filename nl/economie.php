@@ -57,7 +57,7 @@
             </li>
          </ul>
       </div>
-      <div id=content>
+      <div id="content">
          <div class='bollen'> 
          </div>
          <div id='achtergrondcontent'>

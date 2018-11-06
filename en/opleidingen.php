@@ -67,7 +67,7 @@
 			</ul>				
 		</div>
 
-		<div id=content>
+		<div id="content">
 			
 			<div id='achtergrondcontent'>
 				<div id='backgroundimageopleidingen'> </div>

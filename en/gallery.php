@@ -114,7 +114,7 @@
 				<?php
 					function showcase($album = "Onze school"){
 						echo '
-							<div class=galleryTitle>
+							<div class="galleryTitle">
 								<div class="galleryTitle2">
 									'.$album.'
 								</div>
