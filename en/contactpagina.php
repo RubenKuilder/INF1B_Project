@@ -96,26 +96,28 @@
 						</script>
                             <div class='formuliercontent'>
 				<form class='formulier' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-					<h2>Register for education</h2><p></p>
-					<h3>Personal information</h3>
+					<h2>Inschrijven voor opleiding</h2>
+					<h3>Persoonlijke gegevens</h3>
 					
+					<div class="contact">
 					Name:
 					<input type="text" name="voornaam" id="voornaam" placeholder="First Name" required>
-					<input type="text" name="achternaam" id="achternaam" placeholder="Last Name"required>
-					<p></p>
-					 
+					<input type="text" name="achternaam" id="achternaam" placeholder="Last name" required>
+					</div>
+					<div class="contact">
 					E-mail adress:
-					<input type="text" name="email" id="email" placeholder="name@example.com" required><p></p>
-					
-					Gender:
-					<input type="radio" name="geslacht" value="Man"> Man
-					<input type="radio" name="geslacht" value="Vrouw"> Woman
-					<input type="radio" name="geslacht" value="Overig"checked> Other
-					<p></p>
-					
-					Phone Number:
-					<input type="text" name="tel" id="tel"required><p></p>
-					 
+					<input type="text" name="email" id="emailen" placeholder="name@example.com"required>
+					</div>
+					<div class="contact">
+					<div id="geslacht">Gender:</div>
+					<input type="radio" name="geslacht" value="Man" class="geslacht"> Man
+					<input type="radio" name="geslacht" value="Vrouw" class="geslacht"> Woman
+					<input type="radio" name="geslacht" value="Overig" class="geslacht" checked> Other
+					</div>
+					<div class="contact">
+					Telephone:
+					<input type="text" name="tel" id="telen"required>
+					</div>
 					<h3>Education</h3>
 					 
 					Education:
@@ -126,14 +128,15 @@
 							<option>Lifesience: Biology and chemistry</option>
 							<option>Business economics</option>
 							<option>Logistics</option>
-						  </select><p></p>
-						  
-					English: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check to follow English-language education<p></p>
-					
+						  </select>
+					<div class="contact">	  
+					English: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check to follow English-language education
+					</div>
 					<h3>Comments</h3>
-					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Fill in any details"></textarea><p></p>
-					 
-					<input type="submit" value="Send">
+					<div class="contact">
+					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Fill in any details"></textarea>
+					</div>
+					<input name="submit" type="submit" value="Send">
 				</form>
 			<?php
 				if(isset ($_POST["submit"])){

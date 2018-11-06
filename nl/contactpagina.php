@@ -95,26 +95,28 @@
                                                </script>
                             <div class='formuliercontent'>
 				<form class='formulier' action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-					<h2>Inschrijven voor opleiding</h2><p></p>
+					<h2>Inschrijven voor opleiding</h2>
 					<h3>Persoonlijke gegevens</h3>
 					
+					<div class="contact">
 					Naam:
 					<input type="text" name="voornaam" id="voornaam" placeholder="Voornaam" required>
 					<input type="text" name="achternaam" id="achternaam" placeholder="achternaam" required>
-					<p></p>
-					 
+					</div>
+					<div class="contact">
 					E-mail adres:
-					<input type="text" name="email" id="email" placeholder="naam@example.com"required><p></p>
-					
-					Geslacht:
-					<input type="radio" name="geslacht" value="Man"> Man
-					<input type="radio" name="geslacht" value="Vrouw"> Vrouw
-					<input type="radio" name="geslacht" value="Overig" checked> Overig
-					<p></p>
-					
+					<input type="text" name="email" id="email" placeholder="naam@example.com"required>
+					</div>
+					<div class="contact">
+					<div id="geslacht">Geslacht:</div>
+					<input type="radio" name="geslacht" value="Man" class="geslacht"> Man
+					<input type="radio" name="geslacht" value="Vrouw" class="geslacht"> Vrouw
+					<input type="radio" name="geslacht" value="Overig" class="geslacht" checked> Overig
+					</div>
+					<div class="contact">
 					Telefoonnummer:
-					<input type="text" name="tel" id="tel"required><p></p>
-					 
+					<input type="text" name="tel" id="tel"required>
+					</div>
 					<h3>Opleiding</h3>
 					 
 					Opleiding:
@@ -125,13 +127,14 @@
 							<option>Lifesience: Biologie en chemie</option>
 							<option>Bedrijfsecnomie</option>
 							<option>Logistiek</option>
-						  </select><p></p>
-						  
-					Engels: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check om Engelstalige opleiding te volgen<p></p>
-					
+						  </select>
+					<div class="contact">	  
+					Engels: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check om Engelstalige opleiding te volgen
+					</div>
 					<h3>Opmerkingen</h3>
-					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Vul eventuele bijzonderheden in"></textarea><p></p>
-					 
+					<div class="contact">
+					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Vul eventuele bijzonderheden in"></textarea>
+					</div>
 					<input name="submit" type="submit" value="verstuur">
 				</form>
 			<?php
