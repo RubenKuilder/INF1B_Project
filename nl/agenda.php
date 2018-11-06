@@ -94,7 +94,7 @@
 			
 		
 		</div>
-                <a name="decontent"> </a>
+                <a id="decontent"> </a>
 		<div class='informatiecontent'>
 			<div class="agendadiv">
 			
