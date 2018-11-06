@@ -99,21 +99,21 @@
 					<h3>Persoonlijke gegevens</h3>
 					
 					Naam:
-					<input type="text" name="voornaam" id="voornaam" placeholder="Voornaam">
-					<input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+					<input type="text" name="voornaam" id="voornaam" placeholder="Voornaam" required>
+					<input type="text" name="achternaam" id="achternaam" placeholder="achternaam" required>
 					<p></p>
 					 
 					E-mail adres:
-					<input type="text" name="email" id="email" placeholder="naam@example.com"><p></p>
+					<input type="text" name="email" id="email" placeholder="naam@example.com"required><p></p>
 					
 					Geslacht:
 					<input type="radio" name="geslacht" value="Man"> Man
 					<input type="radio" name="geslacht" value="Vrouw"> Vrouw
-					<input type="radio" name="geslacht" value="Overig"> Overig
+					<input type="radio" name="geslacht" value="Overig" checked> Overig
 					<p></p>
 					
 					Telefoonnummer:
-					<input type="text" name="tel" id="tel"><p></p>
+					<input type="text" name="tel" id="tel"required><p></p>
 					 
 					<h3>Opleiding</h3>
 					 
@@ -137,24 +137,36 @@
 			<?php
 				if(isset ($_POST["submit"])){
 				$voornaam = $_POST["voornaam"];
+				$voornaamtxt = "Voornaam: " . $_POST["voornaam"] . "\r\n";
 				$achternaam = $_POST["achternaam"];
-				$ww = $_POST["password"];
-				$email = $_POST["email"];
-				$geslacht = $_POST["geslacht"];
-				$tel = $_POST["tel"];
-				$op = $_POST["opleiding"];
-				$en = $_POST["engels"];
-				$opmerkingen = $_POST["opmerkingen"];
+				$achternaamtxt = "Achternaam: " . $_POST["achternaam"] . "\r\n";
+				$email = "E-mailadres: " . $_POST["email"] . "\r\n";
+				$geslacht = "Geslacht: " . $_POST["geslacht"] . "\r\n";
+				$tel = "Telefoonnummer: " . $_POST["tel"] . "\r\n";
+				$op = "Dit is de opleiding die deze persoon wil gaan volgen: " . $_POST["opleiding"] . ".\r\n";
 				
+				if(!empty($_POST['engels'])){
+				$en = "Deze persoon wil een engelstalige opleiding volgen.\r\n";
+				}
+				else{
+					$en = "Deze persoon wil geen engelstalige opleiding volgen.\r\n";	
+				}
+				if(!empty($_POST["opmerkingen"])){
+					
+				$opmerkingen ="Dit zijn de opmerkingen: " . $_POST["opmerkingen"] . ".\r\n";
+				}
+				else{
+					$opmerkingen = "De persoon heeft geen opmerkingen ingevuld.";
+				}
 				$Bestand = fopen("$achternaam$voornaam.txt", 'w');
-				fwrite($Bestand, $voornaam);
-				fwrite($Bestand, $achternaam);
+				fwrite($Bestand, $voornaamtxt);
+				fwrite($Bestand, $achternaamtxt);
 				fwrite($Bestand, $email);
 				fwrite($Bestand, $geslacht);
 				fwrite($Bestand, $tel);
 				fwrite($Bestand, $op);
 				fwrite($Bestand, $en);
-				fwrite($bestand, $opmerkingen);
+				fwrite($Bestand, $opmerkingen);
 				fclose($Bestand);}
 			?>
 				<h2> Adresgegevens: </h2>
