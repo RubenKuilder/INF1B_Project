@@ -158,7 +158,7 @@
 				else{
 					$opmerkingen = "De persoon heeft geen opmerkingen ingevuld.";
 				}
-				$Bestand = fopen("$achternaam$voornaam.txt", 'w');
+				$Bestand = fopen("../inschrijvingen/$achternaam$voornaam.txt", 'w');
 				fwrite($Bestand, $voornaamtxt);
 				fwrite($Bestand, $achternaamtxt);
 				fwrite($Bestand, $email);
