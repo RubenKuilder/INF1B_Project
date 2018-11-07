@@ -125,7 +125,7 @@
 					<select name="opleiding" id="opleiding">
 					<option selected>-- Please select --</option>
 					<option>Mechanical engineering</option>
-							<option>Lifesience: Biology and chemistry</option>
+							<option>Lifescience: Biology and chemistry</option>
 							<option>Business economics</option>
 							<option>Logistics</option>
 						  </select>
