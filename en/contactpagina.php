@@ -106,7 +106,7 @@
 					</div>
 					<div class="contact">
 					E-mail adress:
-					<input type="text" name="email" id="email" placeholder="name@example.com"required>
+					<input type="text" name="email" id="email" placeholder="name@example.com" required>
 					</div>
 					<div class="contact">
 					<div id="geslacht">Gender:</div>
@@ -116,7 +116,7 @@
 					</div>
 					<div class="contact">
 					Telephone:
-					<input type="text" name="tel" id="tel"required>
+					<input type="text" name="tel" id="tel" required>
 					</div>
 					<h3>Education</h3>
 					 

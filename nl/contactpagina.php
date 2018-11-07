@@ -105,7 +105,7 @@
 					</div>
 					<div class="contact">
 					E-mail adres:
-					<input type="text" name="email" id="email" placeholder="naam@example.com"required>
+					<input type="text" name="email" id="email" placeholder="naam@example.com" required>
 					</div>
 					<div class="contact">
 					<div id="geslacht">Geslacht:</div>
@@ -115,7 +115,7 @@
 					</div>
 					<div class="contact">
 					Telefoonnummer:
-					<input type="text" name="tel" id="tel"required>
+					<input type="text" name="tel" id="tel" required>
 					</div>
 					<h3>Opleiding</h3>
 					 
