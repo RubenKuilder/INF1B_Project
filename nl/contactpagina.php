@@ -128,14 +128,18 @@
 							<option>Bedrijfsecnomie</option>
 							<option>Logistiek</option>
 						  </select>
-					<div class="contact">	  
-					Engels: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check om Engelstalige opleiding te volgen
+					<div class="contact">
+
+                                            <p class='engelsdesktop'> Engelstalig: </p> <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1"> 
+                                            <abbr title= 'Check om Engelstalige opleiding te volgen'> ? </abbr> 
+                                            <p class='engelseopleiding'>Ik kies voor de Engelstalige opleiding </p>                       
 					</div>
 					<h3>Opmerkingen</h3>
 					<div class="contact">
 					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Vul eventuele bijzonderheden in"></textarea>
 					</div>
-					<input name="submit" type="submit" value="verstuur">
+					<input id='verstuur' name="submit" type="submit" value="Inschrijven">
+                                        <hr>
 				</form>
 			<?php
 				if(isset ($_POST["submit"])){

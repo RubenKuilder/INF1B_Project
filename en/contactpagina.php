@@ -106,7 +106,7 @@
 					</div>
 					<div class="contact">
 					E-mail adress:
-					<input type="text" name="email" id="emailen" placeholder="name@example.com"required>
+					<input type="text" name="email" id="email" placeholder="name@example.com"required>
 					</div>
 					<div class="contact">
 					<div id="geslacht">Gender:</div>
@@ -116,7 +116,7 @@
 					</div>
 					<div class="contact">
 					Telephone:
-					<input type="text" name="tel" id="telen"required>
+					<input type="text" name="tel" id="tel"required>
 					</div>
 					<h3>Education</h3>
 					 
@@ -130,13 +130,15 @@
 							<option>Logistics</option>
 						  </select>
 					<div class="contact">	  
-					English: <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1">Check to follow English-language education
+                                            <p class='engelsdesktop'> English: </p> <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1"> 
+                                            <abbr title= 'Check the box to participate in the English course'> ? </abbr> 
+                                            <p class='engelseopleiding'>I choose the English course </p>     
 					</div>
 					<h3>Comments</h3>
 					<div class="contact">
 					<textarea name="opmerkingen" cols="35" rows="5" id="textarea" placeholder="Fill in any details"></textarea>
 					</div>
-					<input name="submit" type="submit" value="Send">
+					<input id='verstuur' name="submit" type="submit" value="Sign up">
 				</form>
 			<?php
 				if(isset ($_POST["submit"])){
