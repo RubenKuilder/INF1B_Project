@@ -130,7 +130,7 @@
 							<option>Logistics</option>
 						  </select>
 					<div class="contact">	  
-                                            <p class='engelsdesktop'> English: </p> <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1"> 
+                                            <div class='engelsdesktop'> English: </div> <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1"> 
                                             <abbr title= 'Check the box to participate in the English course'> ? </abbr> 
                                             <p class='engelseopleiding'>I choose the English course </p>     
 					</div>

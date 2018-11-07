@@ -89,7 +89,7 @@
 
         </div>
         <div class="informatiecontent">
-		<a id='meerinformatie' >
+            <a id='meerinformatie'> </a>
             <div id="ecocontentbox">       
 
 

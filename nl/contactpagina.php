@@ -130,7 +130,7 @@
 						  </select>
 					<div class="contact">
 
-                                            <p class='engelsdesktop'> Engelstalig: </p> <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1"> 
+                                            <div class='engelsdesktop'> Engelstalig: </div> <input type="checkbox" name="engels" value="checkbox" id="CheckboxGroup1"> 
                                             <abbr title= 'Check om Engelstalige opleiding te volgen'> ? </abbr> 
                                             <p class='engelseopleiding'>Ik kies voor de Engelstalige opleiding </p>                       
 					</div>

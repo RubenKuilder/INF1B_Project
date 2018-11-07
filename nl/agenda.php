@@ -94,8 +94,9 @@
 			
 		
 		</div>
-                <a id="decontent"> </a>
+
 		<div class='informatiecontent'>
+                <a id="decontent"> </a>
 			<div class="agendadiv">
 			
 				<div id='script-warning'>
