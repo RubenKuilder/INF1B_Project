@@ -10,13 +10,12 @@ div.gallery:hover {
 	
 }
 div.menuItem {
-	background-color:#62a7db;
 	padding-top:20px;
 	text-align: center;
 	height:60px;
-}
+} 
 input[type=submit]{
-	border:none;
+	border: none;
 	text-decoration: none;
 	cursor: pointer;
 	background-color:#62a7db;
@@ -24,8 +23,11 @@ input[type=submit]{
 	font-size:17px;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
+        height: 60px;
+        width: 230px;
 }
 div.galleryTitle{
+        margin-top: 50px;
 	width:100%;
 	padding: 5px;
 }
