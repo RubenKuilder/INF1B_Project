@@ -1,0 +1,8 @@
+Voornaam: John
+Achternaam: Doe
+E-mailadres: johndoe@gmail.com
+Geslacht: Man
+Telefoonnummer: 06123456
+Dit is de opleiding die deze persoon wil gaan volgen: Mechanical engineering.
+Deze persoon wil een engelstalige opleiding volgen.
+De persoon heeft geen opmerkingen ingevuld.
