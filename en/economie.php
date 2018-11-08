@@ -118,7 +118,7 @@
                     Here you will also build up your personal and researching skills, which you can immediately apply in practice.
                     Here you really learn to think along about the future of an organization. 
                 </p>
-                <img src="../assets/images/blijeMensen.png" alt="eonomie foto">
+                <img src="../assets/Images/blijeMensen.png" alt="eonomie foto">
             </div>
             <div class="middelsteBlok">
                 <h2> Logistics</h2>  
@@ -126,7 +126,7 @@
                     As a manager in logistics, you have a varied and responsible job. 
                     With your professional knowledge you ensure that important business processes such as storage, transport, planning and goods flow run smoothly or you are responsible for the ins and outs of a production department.
                 </p>
-                <img src="../assets/images/blijeLogistiek.png" alt="eonomie foto">
+                <img src="../assets/Images/blijeLogistiek.png" alt="eonomie foto">
             </div>
                     
             <div class="rssFeedBox">
