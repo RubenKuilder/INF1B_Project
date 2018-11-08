@@ -99,13 +99,13 @@
 				</div>
 				<div class="punten">
 					<img src="../assets/images/pin.png" alt="pin">
-					<h1>The best courses</h1>
-					<p> We have the best courses on our school</p>
+					<h1>Top-notch courses</h1>
+					<p> All courses earend the title 'top-notch course'</p>
 				</div>
 				<div class="punten">
 					<img src="../assets/images/pin.png" alt="pin">
 					<h1> International</h1>
-					<p>All our courses are also given in Engelish</p>
+					<p>All our courses are also given in English</p>
 				</div>
 				<div class="clearFix"></div>
 			</div>
@@ -147,7 +147,7 @@
 						<li><a href='contactpagina.php'>Sign up</a></li>
 					</ul>
 				</div>
-				<div class="Links"> 
+				<div class="Links">  
 					<p>Courses</p>
 					<ul>
 						<li><a href="opleidingen.php">Courses</a></li>
