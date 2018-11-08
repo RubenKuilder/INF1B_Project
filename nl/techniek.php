@@ -100,7 +100,7 @@
 
 
                     </p>
-                    <img src="../assets/Images/bouwmensen.png" alt="Werktuigbouwkunde foto">
+                    <img src="../assets/images/bouwmensen.png" alt="Werktuigbouwkunde foto">
                 </div>
                 <div class="middelsteBlok">
                     <h2> Lifescience</h2>  
@@ -109,7 +109,7 @@
                         
 
                     </p>
-                    <img src="../assets/Images/chemie.png" alt="Lifesience & foto">
+                    <img src="../assets/images/chemie.png" alt="Lifesience & foto">
                 </div>
 
                 <div class="rssFeedBox">

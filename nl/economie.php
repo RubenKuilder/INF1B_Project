@@ -96,7 +96,7 @@
                   Ook bouw je hier naast kennis aan je persoonlijke en onderzoekende vaardigheden, die je direct kunt toepassen in de praktijk.
                   Je leert hier echt meedenken over de toekomst van een organisatie. 
                </p>
-               <img src="../assets/Images/blijeMensen.png" alt="eonomie foto">
+               <img src="../assets/images/blijeMensen.png" alt="eonomie foto">
             </div>
             <div class="middelsteBlok">
                <h2> Logistiek</h2>
@@ -104,7 +104,7 @@
                   Als manager in de logistiek heb je afwisselend en verantwoordelijk werk. 
                   Met jouw vakkennis zorg je ervoor dat belangrijke bedrijfsprocessen zoals opslag, vervoer, planning en goederenstroom probleemloos verlopen of ben je verantwoordelijk voor het reilen en zeilen van een productieafdeling.
                </p>
-               <img src="../assets/Images/blijeLogistiek.png" alt="eonomie foto">
+               <img src="../assets/images/blijeLogistiek.png" alt="eonomie foto">
             </div>
             <div class="rssFeedBox">
                <?php 
