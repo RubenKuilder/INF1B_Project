@@ -118,7 +118,7 @@
                     Here you will also build up your personal and researching skills, which you can immediately apply in practice.
                     Here you really learn to think along about the future of an organization. 
                 </p>
-                <img src="../assets/Images/blijeMensen.png" alt="eonomie foto">
+                <img src="../assets/images/blijeMensen.png" alt="eonomie foto">
             </div>
             <div class="middelsteBlok">
                 <h2> Logistics</h2>  
